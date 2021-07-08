@@ -1,4 +1,4 @@
-p
+html
 {
     font-family: raleway;
 }
@@ -13,4 +13,26 @@ p
 {
     font-size: 1.05em;
     font-weight: lighter;
+}
+
+a:visited
+{
+    color:#551A8B;
+}
+
+footer
+{
+    background-color: #e8e8e8;
+}
+
+.a propos
+{
+    text-align: center;
+	color: black;
+}
+
+.section-hebergement
+{
+    background-color: red;
+    width: 66%;
 }
