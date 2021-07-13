@@ -1,6 +1,8 @@
 html
 {
     font-family: raleway;
+    padding: 20px;
+    margin: 10px;
 }
 
 .Titre
@@ -20,12 +22,65 @@ a:visited
     color:#551A8B;
 }
 
-footer
+.header-logo-nav
 {
-    background-color: #e8e8e8;
+    display: flex;
+}
+
+#logo
+{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.navigation
+{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.element_1:hover
+{
+    border-top: 1px solid blue;
+    color: blue;
+}
+
+.element_1
+{
+    border-top: 1px solid rgb(255, 255, 255);
+    text-align: justify;
+}
+    
+.element_2:hover
+{
+    border-top: 1px solid blue;
+    color: blue;
+}
+
+.element_2
+{
+    border-top: 1px solid rgb(255, 255, 255);
+    text-align: justify;
+}
+
+.element_3
+{
+    border-top: 1px solid rgb(255, 255, 255);
+    text-align: justify;
+    color: blue;
+    font-weight: bold;
 }
 
 .section-hebergement
+{
+    border: 1px rgb(255, 255, 255) solid;
+    border-radius: 20px;
+    background-color: #e8e8e8;
+    width: 66%;
+}
+
+footer
 {
     background-color: #e8e8e8;
 }
