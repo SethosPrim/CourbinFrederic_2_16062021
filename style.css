@@ -25,35 +25,7 @@ footer
     background-color: #e8e8e8;
 }
 
-.a propos
-{
-    text-align: center;
-	color: black;
-}
-
 .section-hebergement
 {
-    border: 1px rgb(255, 255, 255) solid;
-    border-radius: 20px;
     background-color: #e8e8e8;
-    width: 66%;
-}
-
-.header-logo-nav
-{
-    display: flex;
-    justify-content: space-between;
-}
-
-.element 1:nth-child
-{
-    border-top: blue;
-}
-.element 2:nth-child
-{
-    order: 1;
-}
-.element 3:nth-child
-{
-    order: 2;
 }
