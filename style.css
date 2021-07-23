@@ -5,79 +5,9 @@ html
 
 .Titre
 {
-    font-size: 1.5em;
     font-weight: bold;
 }
 
-.Sous-Titre
-{
-    font-size: 1.05em;
-    font-weight: lighter;
-}
 
-a:visited
-{
-    color:#551A8B;
-}
 
-.header-logo-nav
-{
-    display: flex;
-}
 
-#logo
-{
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
-
-.navigation
-{
-    display: flex;
-    align-items:center;
-    justify-content: center;
-}
-
-.element_1:hover
-{
-    border-top: 1px solid blue;
-    color: blue;
-}
-
-.element_1
-{
-    border-top: 1px solid rgb(255, 255, 255);
-    text-align: justify;
-}
-    
-.element_2:hover
-{
-    border-top: 1px solid blue;
-    color: blue;
-}
-
-.element_2
-{
-    border-top: 1px solid rgb(255, 255, 255);
-    text-align: justify;
-}
-
-.element_3
-{
-    border-top: 1px solid rgb(255, 255, 255);
-    color: blue;
-    font-weight: bold;
-}
-
-.section-hebergement
-{
-    border: 1px rgb(255, 255, 255) solid;
-    border-radius: 20px;
-    background-color: #e8e8e8;
-    width: 66%;
-}
-
-footer
-{
-    background-color: #e8e8e8;
-}
