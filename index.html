@@ -7,37 +7,54 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Reservia</title>
     </head>
 
     <body>
-        <header>
-            <div class="header-logo-nav">
-                <img src="images/logo/Reservia.png" alt="logo de Reservia" id="logo">
+        <div class="bloc_header">
+            <header>
+                <div class="header-logo-nav">
                 
-                <nav class="navigation">
-                    <ul class="element_1">Hébergements</ul>
-                    <ul class="element_2">Activités</ul>
-                    <ul class="element_3">S'inscrire</ul>
-                </nav>
-            </div>
+                    <div id="logo">
+                        <img src="images/logo/Reservia.png" alt="logo de Reservia"></a>
+                    </div>
+
+                    <nav class="navigation">
+                        <ul class="liste-barre-de-nav">
+                            <li><a href="hebergement" class="nav-1-2">Hébergements</a></li>
+                            <li><a href="activites" class="nav-1-2">Activités</a></li>
+                            <li><a href="#" class="inscription">S'inscrire</a></li>
+                        </ul>  
+                    </nav>
+                </div>
            
-            <h2>Trouver votre hébergement pour des vacances de rêve</h2>
-            <span class="Sous-Titre">En plein centre ville ou en pleine nature</span>
+                <div class="recherche">
+                    <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+                        <span class="Sous-Titre">En plein centre ville ou en pleine nature</span>
 
-            <nav>
-                <ul>
-                    <li>Filtres</li>
-                    <li><a href="index.html">Économique</a></li>
-                    <li><a href="forum.html">Familial</a></li>
-                    <li><a href="contact.html">Romantique</a></li>
-                    <li><a href="contact.html">Animaux autorisés</a></li>
-                </ul>
+                        <div class="rechercher">
+                                <i class="position"></i>
+                                <input type="text" class="recherche"placeholder="Marseille, France"/>
+                                <button class="clique-1">Rechercher</button>
+                                <button class="clique-2">
+                                    <i class="#"></i>
+                                </button>
+                        </div> 
 
-                <h5>Plus de 500 logements sont disponibles dans cette ville</h5>
-            </nav>
+                        <nav class="Filtres">
+                            <ul>Filtres</ul>
+                            <ul><a href="#">Économique</a></ul>
+                            <ul><a href="#">Familial</a></ul>
+                            <ul><a href="#">Romantique</a></ul>
+                            <ul><a href="#">Animaux autorisés</a></ul>
 
-        </header>
+                            <h5>Plus de 500 logements sont disponibles dans cette ville</h5>
+                        </nav>
+                </div>
+            </header>
+        </div>
 
+        <div class="bloc_hebergement">
             <section class="section-hebergement">
                 <h1>Hébergement à Marseille</h1>
                 
@@ -47,18 +64,27 @@
                     <span class="Sous-Titre">Nuit à partir de 25€<span class></p>
                 </article>
             </section>
+        </div>
         
+        <div class="bloc_populaire">
 
-        <footer>
-            <h2>A propos</h2>
-                <p>
-                    <span class="a propos">
-                        <a href="Fonctionnement du site.html">Fonctionnement du site</a></br >
-                        <a href="Condition générale de vente.html">Condition générale de vente</a></br >
-                        <a href="Données et confidentialité.html">Données et confidentialité</a></br >
-                    </span class>
-                </p>
-        </footer>
+        </div>
 
+        <div class="bloc_activites">
+
+        </div>
+
+        <div class="footer">
+            <footer>
+                <h2>A propos</h2>
+                    <p>
+                        <span class="a propos">
+                            <a href="Fonctionnement du site.html">Fonctionnement du site</a></br >
+                            <a href="Condition générale de vente.html">Condition générale de vente</a></br >
+                            <a href="Données et confidentialité.html">Données et confidentialité</a></br >
+                        </span class>
+                    </p>
+            </footer>
+        </div>
     </body>
 </html>

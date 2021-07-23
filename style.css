@@ -3,11 +3,153 @@ html
     font-family: raleway;
 }
 
-.Titre
+/* Eléments principaux de la page */
+
+
+/* Header */
+
+header
 {
-    font-weight: bold;
+    margin: 25px;
+    padding: 25px;
+} 
+
+.header-logo-nav
+{
+    display: flex;
+    justify-content: space-between;
 }
 
 
+/* Navigation */
 
+.liste-barre-de-nav
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 10px;
+}
+
+nav a
+{
+    text-decoration: none;
+}
+
+.nav-1-2
+{
+    color: black;
+    padding: 50px 20px 0 20px;
+}
+
+.nav-1-2:hover
+{
+    border-top: 1px solid #0065FC;
+    color: #0065FC;
+}
+
+.inscription
+{
+    color: #0065FC;
+    font-weight: bold;
+    padding: 20px 20px 0 20px;
+}
+
+/* Recherche */
+
+.recherche h2
+{
+    margin-bottom: 5px;
+}
+
+.rechercher
+{
+    margin-top: 20px;
+}
+
+.rechercher .position
+{
+    background-color: #F2F2F2;
+    height: 25px;
+    width: 25px;
+    margin: 0px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.rechercher .recherche
+{
+    position: relative;
+    right: 5px;
+    width: 200px;
+    height: 44px;
+    border: 2px solid #F2F2F2;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input::placeholder
+{
+    position: relative;
+    left: 10px;
+    color: black;
+}
+
+.recherche:focus
+{
+    outline: none;
+}
+
+.clique-1
+{
+    margin-left: -10px;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 50px;
+    background-color: #0065FC;
+    color: blanchedalmond;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+.clique-1:focus
+{
+    outline: none;
+}
+
+.clique-2
+{
+    display: none;
+}
+
+/* Hébergement */
+
+.filtres
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-hebergement
+{
+    border: 1px rgb(255, 255, 255) solid;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    width: 66%;
+}
+/* Footer */
+
+.footer
+{
+    background-color: #F2F2F2;
+}
 
