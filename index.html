@@ -33,23 +33,35 @@
                         <span class="Sous-Titre">En plein centre ville ou en pleine nature</span>
 
                         <div class="rechercher">
-                                <i class="position"></i>
-                                <input type="text" class="recherche"placeholder="Marseille, France"/>
-                                <button class="clique-1">Rechercher</button>
-                                <button class="clique-2">
-                                    <i class="#"></i>
-                                </button>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <input type="text" class="recherche"placeholder="Marseille, France"/>
+                            <button class="clique-1">Rechercher</button>
+                            <button class="clique-2"></button>
                         </div> 
 
-                        <nav class="Filtres">
-                            <ul>Filtres</ul>
-                            <ul><a href="#">Économique</a></ul>
-                            <ul><a href="#">Familial</a></ul>
-                            <ul><a href="#">Romantique</a></ul>
-                            <ul><a href="#">Animaux autorisés</a></ul>
+                        <div class="filtres">
+                            <h1>Filtres</h1>
 
-                            <h5>Plus de 500 logements sont disponibles dans cette ville</h5>
-                        </nav>
+                            <div class="filtres-economique">
+                                <i class="fas fa-money-bill-wave"></i><a href="#">Économique</a>
+                            </div>
+
+                            <div class="filtres-familial">
+                                <i class="fas fa-child"></i><a href="#">Familial</a>
+                            </div>
+
+                            <div class="filtres-romantique">
+                                <i class="fas fa-heart"></i><a href="#">Romantique</a>
+                            </div>
+
+                            <div class="filtres-animaux-autorisés">
+                                <i class="fas fa-dog"></i><a href="#">Animaux autorisés</a>
+                            </div>   
+                        </div>
+
+                        <div class="infos">
+                            <i class="fas fa-info"></i><p>Plus de 500 logements sont disponibles dans cette ville</p>
+                        </div>
                 </div>
             </header>
         </div>
@@ -60,10 +72,14 @@
                 
                 <article>
                     <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la Cannebière" /><br />
-                    <h2>Auberge de la Cannebière</h2>
+                    <h3>Auberge de la Cannebière</h3>
                     <span class="Sous-Titre">Nuit à partir de 25€<span class></p>
                 </article>
             </section>
+
+            <aside class="les-plus-populaires">
+
+            </aside>
         </div>
         
         <div class="bloc_populaire">
@@ -76,14 +92,38 @@
 
         <div class="footer">
             <footer>
-                <h2>A propos</h2>
-                    <p>
-                        <span class="a propos">
-                            <a href="Fonctionnement du site.html">Fonctionnement du site</a></br >
-                            <a href="Condition générale de vente.html">Condition générale de vente</a></br >
-                            <a href="Données et confidentialité.html">Données et confidentialité</a></br >
-                        </span class>
-                    </p>
+                <div class="nav-footer">
+                    <div class="a-propos">
+                        <h3>A propos</h3>
+                            <nav class="nav-footer-a-propos">
+                                <p>
+                                    <a href="#">Fonctionnement du site</a></br >
+                                    <a href="#">Conditions générales de vente</a></br >
+                                    <a href="#">Données et confidentialité</a></br >
+                                </p>
+                            </nav>
+                    </div>
+    
+                    <div class="nos-hebergements">
+                        <h3>Nos hébergements</h3>
+                            <nav class="nav-footer-nos-hebergements">
+                                <p>
+                                    <a href="#">Charte qualité</a></br >
+                                    <a href="#">Soumettre votre hôtel</a></br >
+                                </p>
+                            </nav>
+                    </div>
+    
+                    <div class="assistance">
+                        <h3>Assistance</h3>
+                            <nav class="nav-footer-assistance">
+                                <p>
+                                    <a href="#">Centre d'aide</a></br >
+                                    <a href="#">Nous contacter</a></br >
+                                </p>
+                            </nav>
+                    </div>
+                </div>
             </footer>
         </div>
     </body>

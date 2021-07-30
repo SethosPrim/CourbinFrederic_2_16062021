@@ -5,6 +5,11 @@ html
 
 /* Eléments principaux de la page */
 
+a:hover
+{
+    color: #0065FC;
+}
+
 
 /* Header */
 
@@ -37,6 +42,7 @@ nav li
 nav a
 {
     text-decoration: none;
+    color: black;
 }
 
 .nav-1-2
@@ -70,15 +76,16 @@ nav a
     margin-top: 20px;
 }
 
-.rechercher .position
+.rechercher .fa-map-marker-alt
 {
-    background-color: #F2F2F2;
+    background-color: #9c1818;
     height: 25px;
     width: 25px;
     margin: 0px;
+    padding: 18px 8px 7px 8px;
     text-align: center;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .rechercher .recherche
@@ -87,7 +94,7 @@ nav a
     right: 5px;
     width: 200px;
     height: 44px;
-    border: 2px solid #F2F2F2;
+    border: 2px solid #490808;
     font-size: 20px;
     font-weight: bold;
 }
@@ -112,6 +119,7 @@ input::placeholder
     font-size: 15px;
     font-weight: bold;
     line-height: 50px;
+    padding-top: 2px;
     background-color: #0065FC;
     color: blanchedalmond;
     border: none;
@@ -135,8 +143,11 @@ input::placeholder
 .filtres
 {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    max-width: 70%;
 }
 
 .section-hebergement
@@ -150,6 +161,14 @@ input::placeholder
 
 .footer
 {
+    margin: 0 0px 0 0;
     background-color: #F2F2F2;
+}
+
+.nav-footer
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
 }
 
