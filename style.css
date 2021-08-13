@@ -10,6 +10,11 @@ a:hover
     color: #0065FC;
 }
 
+a
+{
+    text-decoration: none;
+    color: black;
+}
 
 /* Header */
 
@@ -78,7 +83,7 @@ nav a
 
 .rechercher .fa-map-marker-alt
 {
-    background-color: #9c1818;
+    background-color: #F2F2F2;
     height: 25px;
     width: 25px;
     margin: 0px;
@@ -94,7 +99,7 @@ nav a
     right: 5px;
     width: 200px;
     height: 44px;
-    border: 2px solid #490808;
+    border: 2px solid #F2F2F2;
     font-size: 20px;
     font-weight: bold;
 }
@@ -138,8 +143,6 @@ input::placeholder
     display: none;
 }
 
-/* Hébergement */
-
 .filtres
 {
     display: flex;
@@ -150,6 +153,55 @@ input::placeholder
     max-width: 70%;
 }
 
+.filtres a
+{
+    border: 1px blue solid;
+    border-radius: 30px;
+    padding: 10px;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.filtres h2
+{
+    margin: 20px 0 20px 0;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+
+.filtres i
+{
+    border: 1px blue solid;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    color: blue;
+    background-color: #DEEBFF;
+    align-items: center;
+}
+
+.infos p
+{
+    
+}
+
+.infos i
+{
+    border: 1px blue solid;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+    color: blue;
+}
+
+/* Hébergement */
+
+.logement
+{
+    width: 66%;
+}
+
 .section-hebergement
 {
     border: 1px rgb(255, 255, 255) solid;
@@ -157,6 +209,23 @@ input::placeholder
     background-color: #F2F2F2;
     width: 66%;
 }
+
+.
+{
+    flex: 66%;
+}
+
+.emplacement-choix-du-logement a
+{
+    flex: 25%;
+}
+
+.etoile i
+{
+    color: #0065FC;
+    
+}
+
 /* Footer */
 
 .footer
