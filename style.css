@@ -96,7 +96,7 @@ nav a
     height: 25px;
     width: 25px;
     margin: 0px;
-    padding: 18px 8px 7px 8px;
+    padding: 18px 8px 6px 8px;
     text-align: center;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -155,11 +155,7 @@ input::placeholder
 .filtres
 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    list-style-type: none;
-    text-decoration: none;
-    max-width: 70%;
     margin-top: 20px;
 }
 
@@ -174,6 +170,7 @@ input::placeholder
     border: 1px var(--greycolor) solid;
     border-radius: 30px;
     padding-right: 20px;
+    margin-left: 20px;
 }
 
 .filtres i
@@ -187,12 +184,13 @@ input::placeholder
     text-align: center;
     vertical-align: middle;
     line-height: 2.4;
+    margin-left: -5px;
 }
 
 .filtres a
 {
     padding-left: 10px;
-    font-size: 1.3em;
+    font-size: 1em;
     font-weight: bold;
 }
 
@@ -226,7 +224,7 @@ input::placeholder
 {
     display: flex;
     justify-content: center;
-    width: 66%;
+    width: 70%;
     margin: 0 25px 25px 25px;
     padding: 0 25px 25px 25px;
 }
@@ -241,6 +239,7 @@ input::placeholder
     padding: 25px;
     width: 66%;
     flex: 66%;
+    margin-right: 15px;
 }
 
 .emplacement-choix-du-logement
@@ -260,10 +259,22 @@ input::placeholder
 
 .choix-du-logement img
 {
-    height: 160px;
+    height: 100px;
+    min-width: 250px;
     margin: 0 auto;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    overflow:hidden
+}
+
+.caracteristique
+{
+    margin: 0 10px 10px 10px;
+}
+
+.caracteristique h4,p
+{
+    margin: 5px 0 5px 0;
 }
 
 .etoile i
@@ -277,11 +288,22 @@ input::placeholder
 {
     border-radius: 20px;
     background-color: var(--greycolor);
-    flex: 100%;
     height: auto;
     padding: 25px;
-    width: 34%;
-    flex: 34%;
+    width: 30%;
+    flex: 30%;
+    margin-left: 15px;
+}
+
+.titre-aside
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titre-aside i
+{
+    line-height: 4;
 }
 
 /* Footer */
