@@ -16,18 +16,27 @@ a
     color: black;
 }
 
+:root
+{
+    --bluecolor: #0065FC;
+    --bluelightcolor: #DEEBFF;
+    --greycolor: rgb(226, 226, 226);
+}
+
 /* Header */
 
 header
 {
-    margin: 25px;
-    padding: 25px;
+    margin: 25px 25px 0 25px;
+    padding: 25px 25px 10px 25px;
 } 
 
 .header-logo-nav
 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 
@@ -58,13 +67,13 @@ nav a
 
 .nav-1-2:hover
 {
-    border-top: 1px solid #0065FC;
-    color: #0065FC;
+    border-top: 1px solid var(--bluecolor);
+    color: var(--bluecolor);
 }
 
 .inscription
 {
-    color: #0065FC;
+    color: var(--bluecolor);
     font-weight: bold;
     padding: 20px 20px 0 20px;
 }
@@ -83,7 +92,7 @@ nav a
 
 .rechercher .fa-map-marker-alt
 {
-    background-color: #F2F2F2;
+    background-color: var(--greycolor);
     height: 25px;
     width: 25px;
     margin: 0px;
@@ -99,7 +108,7 @@ nav a
     right: 5px;
     width: 200px;
     height: 44px;
-    border: 2px solid #F2F2F2;
+    border: 2px solid var(--greycolor);
     font-size: 20px;
     font-weight: bold;
 }
@@ -125,7 +134,7 @@ input::placeholder
     font-weight: bold;
     line-height: 50px;
     padding-top: 2px;
-    background-color: #0065FC;
+    background-color: var(--bluecolor);
     color: blanchedalmond;
     border: none;
     border-top-right-radius: 15px;
@@ -151,79 +160,128 @@ input::placeholder
     list-style-type: none;
     text-decoration: none;
     max-width: 70%;
-}
-
-.filtres a
-{
-    border: 1px blue solid;
-    border-radius: 30px;
-    padding: 10px;
-    align-items: center;
-    font-size: 1.3em;
-    font-weight: bold;
+    margin-top: 20px;
 }
 
 .filtres h2
 {
-    margin: 20px 0 20px 0;
-    margin-bottom: 20px;
+    margin: 0;
     font-size: 1.4em;
+}
+
+.filtres-divers
+{
+    border: 1px var(--greycolor) solid;
+    border-radius: 30px;
+    padding-right: 20px;
 }
 
 .filtres i
 {
-    border: 1px blue solid;
+    border: 1px var(--bluelightcolor) solid;
     border-radius: 30px;
     width: 40px;
     height: 40px;
-    color: blue;
-    background-color: #DEEBFF;
-    align-items: center;
+    color: var(--bluecolor);
+    background-color: var(--bluelightcolor);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2.4;
 }
 
-.infos p
+.filtres a
 {
-    
+    padding-left: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.infos
+{
+    display: flex;
+    margin-top: 20px;
 }
 
 .infos i
 {
-    border: 1px blue solid;
+    border: 1px var(--greycolor) solid;
     border-radius: 30px;
-    width: 20px;
-    height: 20px;
-    color: blue;
+    width: 25px;
+    height: 25px;
+    color: var(--bluecolor);
+    text-align: center;
+    line-height: 1.4;
+    margin-top: 11px;
+}
+
+.infos p
+{
+    margin-left: 10px;
+    text-align: center;
 }
 
 /* Hébergement */
 
-.logement
+.section-hebergement
 {
+    display: flex;
+    justify-content: center;
     width: 66%;
+    margin: 0 25px 25px 25px;
+    padding: 0 25px 25px 25px;
 }
 
-.section-hebergement
+.logement
 {
     border: 1px rgb(255, 255, 255) solid;
     border-radius: 20px;
-    background-color: #F2F2F2;
+    background-color: var(--greycolor);
+    flex: 100%;
+    height: auto;
+    padding: 25px;
     width: 66%;
+    flex: 66%;
 }
 
-.
+.emplacement-choix-du-logement
 {
-    flex: 66%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .emplacement-choix-du-logement a
 {
-    flex: 25%;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.choix-du-logement img
+{
+    height: 160px;
+    margin: 0 auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .etoile i
 {
-    color: #0065FC;
-    
+    color: var(--bluecolor);
+}
+
+/* Aside */
+
+.les-plus-populaire
+{
+    border-radius: 20px;
+    background-color: var(--greycolor);
+    flex: 100%;
+    height: auto;
+    padding: 25px;
+    width: 34%;
+    flex: 34%;
 }
 
 /* Footer */
@@ -231,7 +289,7 @@ input::placeholder
 .footer
 {
     margin: 0 0px 0 0;
-    background-color: #F2F2F2;
+    background-color: var(--greycolor);
 }
 
 .nav-footer
