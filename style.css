@@ -5,7 +5,7 @@ html
 
 /* Eléments principaux de la page */
 
-h2
+h1,h2
 {
     font-size: 24px;
 }
@@ -241,7 +241,7 @@ input::placeholder
 
 .logement h1
 {
-    padding-left: 13px;
+    padding-left: 15px;
 }
 
 .emplacement-choix-du-logement
@@ -290,7 +290,7 @@ input::placeholder
 
 .afficher-plus a
 {
-    padding-left: 13px;
+    padding-left: 15px;
     font-size: 18px;
     font-weight: bold;
 }
@@ -316,7 +316,7 @@ input::placeholder
 
 .titre-aside h1
 {
-    padding-left: 13px;
+    padding-left: 10px;
 }
 
 .titre-aside i
@@ -394,7 +394,7 @@ input::placeholder
 
 .choix-de-l-activité-vieux-port img,.choix-de-l-activité-parc-national-des-calanques img
 {
-    height: 400px;
+    height: 410px;
     width: 290px;
     object-fit: cover;
     margin: auto;
