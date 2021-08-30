@@ -216,15 +216,15 @@ input::placeholder
     text-align: center;
 }
 
-/* Hebergment */
+/* Hébergement */
 
 .section-hebergement
 {
     display: flex;
     justify-content: center;
     width: 90%;
-    margin: 0 25px 25px 25px;
-    padding: 0 25px 25px 25px;
+    margin: 0 25px 10px 25px;
+    padding: 0 25px 10px 25px;
 }
 
 .logement
@@ -241,7 +241,7 @@ input::placeholder
 
 .logement h1
 {
-    padding-left: 15px;
+    padding-left: 17px;
 }
 
 .emplacement-choix-du-logement
@@ -290,7 +290,7 @@ input::placeholder
 
 .afficher-plus a
 {
-    padding-left: 15px;
+    padding-left: 17px;
     font-size: 18px;
     font-weight: bold;
 }
@@ -317,6 +317,7 @@ input::placeholder
 .titre-aside h1
 {
     padding-left: 10px;
+    margin: 20px 0 20px 0;
 }
 
 .titre-aside i
@@ -362,7 +363,7 @@ input::placeholder
     color: var(--bluecolor);
 }
 
-/* Activity */
+/* Activité */
 
 .section-activité
 {
@@ -386,7 +387,7 @@ input::placeholder
 {
     background-color: var(--whitecolor);
     width: 290px;
-    margin: 0 10px 40px 0;
+    margin: 0 10px 10px 0;
     padding: 5px;
     border-radius: 20px;
     box-shadow: 1px;
@@ -438,7 +439,7 @@ input::placeholder
     padding: 5px;
     border-radius: 20px;
     box-shadow: 1px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .choix-de-l-activité-iles-du-frioul img
@@ -459,7 +460,7 @@ input::placeholder
     padding: 5px;
     border-radius: 20px;
     box-shadow: 1px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .choix-de-l-activité-bloc-2 img
@@ -471,6 +472,11 @@ input::placeholder
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     overflow:hidden
+}
+
+.choix-de-l-activité-notre-dame-de-la-garde
+{
+    margin-bottom: 28px;
 }
 
 /* Footer */
@@ -488,7 +494,7 @@ input::placeholder
     justify-content: space-between;
     max-width: 75%;
     margin-left: 50px;
-    padding: 40px 0 40px 0;
+    padding: 10px 0 10px 0;
 }
 
 .nav-footer p
