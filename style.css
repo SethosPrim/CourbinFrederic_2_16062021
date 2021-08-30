@@ -31,7 +31,8 @@ a
     --bluecolor: #0065FC;
     --bluelightcolor: #DEEBFF;
     --greycolor: #F2F2F2;
-    --whitecolor: whitesmoke;
+    --darkgreycolor: #cecece;
+    --whitecolor: white;
 }
 
 /* Header */
@@ -86,9 +87,9 @@ nav li
 
 /* Recherche */
 
-.recherche h2
+.recherche h1
 {
-    margin-bottom: 5px;
+    margin: 20px 0 5px 0;
 }
 
 .rechercher
@@ -239,9 +240,9 @@ input::placeholder
     margin-right: 15px;
 }
 
-.logement h1
+.logement h2
 {
-    padding-left: 17px;
+    padding-left: 16px;
 }
 
 .emplacement-choix-du-logement
@@ -259,7 +260,7 @@ input::placeholder
     margin: 10px;
     padding: 5px;
     border-radius: 20px;
-    box-shadow: 1px;
+    box-shadow: 1px 2px 3px 2px var(--darkgreycolor);
 }
 
 .choix-du-logement img
@@ -270,7 +271,7 @@ input::placeholder
     margin: auto;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    overflow:hidden
+    overflow: hidden
 }
 
 .caracteristique
@@ -290,7 +291,7 @@ input::placeholder
 
 .afficher-plus a
 {
-    padding-left: 17px;
+    padding-left: 16px;
     font-size: 18px;
     font-weight: bold;
 }
@@ -314,7 +315,7 @@ input::placeholder
     justify-content: space-between;
 }
 
-.titre-aside h1
+.titre-aside h2
 {
     padding-left: 10px;
     margin: 20px 0 20px 0;
@@ -322,7 +323,8 @@ input::placeholder
 
 .titre-aside i
 {
-    line-height: 4;
+    line-height: 2.8;
+    font-size: 25px;
 }
 
 .emplacement-choix-du-logement-populaire
@@ -332,7 +334,7 @@ input::placeholder
     margin: 20px 10px 20px 10px;
     padding: 5px;
     border-radius: 20px;
-    box-shadow: 1px;
+    box-shadow: 1px 2px 3px 2px var(--darkgreycolor);
 }
 
 .choix-du-logement-populaire
@@ -350,17 +352,25 @@ input::placeholder
     margin: auto;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    overflow:hidden
+    overflow: hidden
 }
 
 .caracteristique-populaire
 {
     padding-left: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
+.caracteristique-populaire h4
+{
+    margin: 8px 0 5px 0;
+}
 .etoile-populaire
 {
     color: var(--bluecolor);
+    margin-top: auto;
+    margin-bottom: 8px;
 }
 
 /* Activité */
@@ -378,7 +388,7 @@ input::placeholder
     width: 96%;
 }
 
-.emplacement-choix-de-l-activité h3
+.emplacement-choix-de-l-activité h4
 {
     padding-left: 15px;
 }
@@ -390,7 +400,7 @@ input::placeholder
     margin: 0 10px 10px 0;
     padding: 5px;
     border-radius: 20px;
-    box-shadow: 1px;
+    box-shadow: 1px 2px 3px 2px var(--greycolor);
 }
 
 .choix-de-l-activité-vieux-port img,.choix-de-l-activité-parc-national-des-calanques img
@@ -401,7 +411,7 @@ input::placeholder
     margin: auto;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    overflow:hidden
+    overflow: hidden
 }
 
 .choix-de-l-activité-bloc-1,.choix-de-l-activité-bloc-2
@@ -416,7 +426,7 @@ input::placeholder
     margin-right: 10px;
     padding: 5px;
     border-radius: 20px;
-    box-shadow: 1px;
+    box-shadow: 1px 2px 3px 2px var(--greycolor);
     margin-bottom: 30px;
 }
 
@@ -428,7 +438,7 @@ input::placeholder
     margin: auto;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    overflow:hidden
+    overflow: hidden
 }
 
 .choix-de-l-activité-iles-du-frioul
@@ -438,7 +448,7 @@ input::placeholder
     margin-right: 10px;
     padding: 5px;
     border-radius: 20px;
-    box-shadow: 1px;
+    box-shadow: 1px 2px 3px 2px var(--greycolor);
     margin-bottom: 10px;
 }
 
@@ -450,7 +460,7 @@ input::placeholder
     margin: auto;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    overflow:hidden
+    overflow: hidden
 }
 
 .choix-de-l-activité-notre-dame-de-la-garde,.choix-de-l-activité-parc-longchamp
@@ -459,7 +469,7 @@ input::placeholder
     width: 290px;
     padding: 5px;
     border-radius: 20px;
-    box-shadow: 1px;
+    box-shadow: 1px 2px 3px 2px var(--greycolor);
     margin-bottom: 10px;
 }
 
@@ -471,7 +481,7 @@ input::placeholder
     margin: auto;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    overflow:hidden
+    overflow: hidden
 }
 
 .choix-de-l-activité-notre-dame-de-la-garde
