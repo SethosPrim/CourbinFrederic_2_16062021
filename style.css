@@ -31,7 +31,7 @@ a
     --bluecolor: #0065FC;
     --bluelightcolor: #DEEBFF;
     --greycolor: #F2F2F2;
-    --darkgreycolor: #cecece;
+    --darkgreycolor: #B1B1B14B;
     --whitecolor: white;
 }
 
@@ -260,7 +260,7 @@ input::placeholder
     margin: 10px;
     padding: 5px;
     border-radius: 20px;
-    box-shadow: 1px 2px 3px 2px var(--darkgreycolor);
+    box-shadow: 0 0 6px 3px var(--darkgreycolor);
 }
 
 .choix-du-logement img
@@ -287,6 +287,11 @@ input::placeholder
 .etoile i
 {
     color: var(--bluecolor);
+}
+
+.etoile .light
+{
+    color: red;
 }
 
 .afficher-plus a
@@ -327,7 +332,7 @@ input::placeholder
     font-size: 25px;
 }
 
-.emplacement-choix-du-logement-populaire
+.populaire
 {
     background-color: var(--whitecolor);
     width: 350px;
