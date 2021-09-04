@@ -35,6 +35,11 @@ a
     --whitecolor: white;
 }
 
+.tarif
+{
+    font-weight: bold;
+}
+
 /* Header */
 
 header
@@ -291,7 +296,7 @@ input::placeholder
 
 .etoile .light
 {
-    color: red;
+    color: var(--bluelightcolor);
 }
 
 .afficher-plus a
@@ -371,11 +376,17 @@ input::placeholder
 {
     margin: 8px 0 5px 0;
 }
+
 .etoile-populaire
 {
     color: var(--bluecolor);
     margin-top: auto;
     margin-bottom: 8px;
+}
+
+.etoile-populaire .light
+{
+    color: var(--bluelightcolor);
 }
 
 /* Activité */
