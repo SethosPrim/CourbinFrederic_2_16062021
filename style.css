@@ -340,7 +340,7 @@ input::placeholder
 .populaire
 {
     background-color: var(--whitecolor);
-    width: 350px;
+    width: 400px;
     margin: 20px 10px 20px 10px;
     padding: 5px;
     border-radius: 20px;
@@ -355,11 +355,10 @@ input::placeholder
 .choix-du-logement-populaire img
 {
     height: 145px;
-    width: 140px;
-    min-width: 170px;
-    max-width: 175px;
+    width: 105px;
+    min-width: 125px;
+    max-width: 130px;
     object-fit: cover;
-    margin: auto;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     overflow: hidden
