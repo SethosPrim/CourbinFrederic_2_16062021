@@ -7,17 +7,12 @@ html
 
 h1,h2
 {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 h3
 {
-    font-size: 14px;
-}
-
-h4, p, a
-{
-    font-size: 12px;
+    font-size: 18px;
 }
 
 a:hover
@@ -35,7 +30,7 @@ a
 {
     --bluecolor: #0065FC;
     --bluelightcolor: #DEEBFF;
-    --greycolor: #989e98;
+    --greycolor: #F2F2F2;
     --darkgreycolor: #B1B1B14B;
     --whitecolor: white;
 }
@@ -52,7 +47,7 @@ header
     margin: 25px 25px 0 25px;
     padding: 25px 25px 10px 25px;
     max-width: 1700px;
-}
+} 
 
 .header-logo-nav
 {
@@ -62,10 +57,6 @@ header
     flex-wrap: wrap;
 }
 
-#logo img
-{
-    width: 20%;
-}
 
 /* Navigation */
 
@@ -113,25 +104,28 @@ nav li
 
 .rechercher .fa-map-marker-alt
 {
-    position: relative;
+    background-color: var(--greycolor);
+    height: 25px;
     width: 25px;
+    margin: auto;
     padding: 15px 8px 9px 8px;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 1.3em;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .rechercher .recherche
 {
-    width: 180px;
-    height: 39px;
+    position: relative;
+    right: 5px;
+    bottom: 2px;
+    width: 200px;
+    height: 44px;
     padding-left: 10px;
     border: 2px solid var(--greycolor);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
-    border-left: 41px var(--greycolor) solid;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    margin-left: -45px;
 }
 
 input::placeholder
@@ -148,11 +142,13 @@ input::placeholder
 
 .clique-1
 {
-    margin-left: -4px;
+    margin-left: -10px;
     width: 120px;
-    height: 45px;
-    font-size: 14px;
+    height: 50px;
+    font-size: 16px;
     font-weight: bold;
+    line-height: 50px;
+    padding-top: 2px;
     background-color: var(--bluecolor);
     color: var(--whitecolor);
     border: none;
@@ -163,7 +159,7 @@ input::placeholder
 
 .clique-1:focus
 {
-    *outline: none;*
+    outline: none;
 }
 
 .filtres
@@ -171,11 +167,6 @@ input::placeholder
     display: flex;
     align-items: center;
     margin-top: 20px;
-}
-
-.filtres h3
-{
-    padding-bottom: 1px;
 }
 
 .filtres-divers
@@ -190,25 +181,20 @@ input::placeholder
 {
     border: 1px var(--bluelightcolor) solid;
     border-radius: 30px;
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
     color: var(--bluecolor);
     background-color: var(--bluelightcolor);
     text-align: center;
     vertical-align: middle;
-    line-height: 2.2;
+    line-height: 2.4;
     margin-left: -5px;
-}
-
-.fas.fa-heart
-{
-    line-height: 2.3;
 }
 
 .filtres a
 {
     padding-left: 10px;
-    font-size: 14px;
+    font-size: 1em;
     font-weight: bold;
 }
 
@@ -220,21 +206,20 @@ input::placeholder
 
 .infos i
 {
-    font-size: 11px;
     border: 1px var(--greycolor) solid;
     border-radius: 30px;
     width: 25px;
     height: 25px;
     color: var(--bluecolor);
     text-align: center;
-    line-height: 2.1;
+    line-height: 1.4;
+    margin-top: 1px;
 }
 
 .infos p
 {
     margin-left: 10px;
-    text-align: center;
-    padding-top: 2px;
+    text-align: center;   
 }
 
 /* Hébergement */
@@ -243,24 +228,26 @@ input::placeholder
 {
     display: flex;
     justify-content: center;
+    /*width: 90%;*/
     margin: 0 25px 10px 25px;
-    padding: 0 25px 10px 25px;
+    /*padding: 0 25px 10px 25px;*/
 }
 
 .logement
 {
-    background-color: var(--greycolor);
     border-radius: 20px;
+    background-color: var(--greycolor);
+    flex: 100%;
     height: auto;
-    width: 85%;
-    max-width: 1000px;
-    margin-right: 15px;
     padding: 25px;
+    width: 66%;
+    flex: 66%;
+    margin-right: 15px;
 }
 
 .logement h2
 {
-    padding-left: 27px;
+    padding-left: 16px;
 }
 
 .emplacement-choix-du-logement
@@ -274,8 +261,8 @@ input::placeholder
 .emplacement-choix-du-logement a
 {
     background-color: var(--whitecolor);
-    width: 27%;
-    margin: 10px 5px;
+    width: 29%;
+    margin: 10px;
     padding: 5px;
     border-radius: 20px;
     box-shadow: 0 0 6px 3px var(--darkgreycolor);
@@ -283,7 +270,7 @@ input::placeholder
 
 .choix-du-logement img
 {
-    height: 140px;
+    height: 115px;
     width: 100%;
     object-fit: cover;
     margin: auto;
@@ -314,45 +301,49 @@ input::placeholder
 
 .afficher-plus a
 {
-    padding-left: 30px;
+    padding-left: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 
 /* Aside */
-
+.fas {
+    font-size: 12px;
+}
 .les-plus-populaire
 {
-    background-color: var(--greycolor);
     border-radius: 20px;
+    background-color: var(--greycolor);
     height: auto;
-    width: 40%;
-    max-width: 475px;
+    /*padding: 25px;*/
+    width: 30%;
+    /*flex: 30%;*/
     margin-left: 15px;
-    padding: 25px;
 }
 
 .titre-aside
 {
     display: flex;
     justify-content: space-between;
+    margin: 0 10px;
 }
 
 .titre-aside h2
 {
-    margin: 16px 0;
-    padding-left: 10px;    
+    padding-left: 10px;
+    margin: 20px 0 20px 0;
 }
 
 .titre-aside i
 {
-    line-height: 2.5;
-    font-size: 20px;
+    line-height: 2.8;
+    font-size: 25px;
 }
 
 .populaire
 {
     background-color: var(--whitecolor);
-    width: auto;
+    /*width: 400px;*/
     margin: 20px 10px 20px 10px;
     padding: 5px;
     border-radius: 20px;
@@ -367,7 +358,7 @@ input::placeholder
 .choix-du-logement-populaire img
 {
     height: 145px;
-    width: 105px;
+    /*width: 105px;*/
     min-width: 125px;
     max-width: 130px;
     object-fit: cover;
@@ -412,7 +403,7 @@ input::placeholder
 {
     display: flex;
     justify-content: space-between;
-    width: 96%;
+    /*width: 96%;*/
 }
 
 .emplacement-choix-de-l-activité h4
@@ -420,20 +411,20 @@ input::placeholder
     padding-left: 15px;
 }
 
-.choix-de-l-activité-vieux-port,.choix-de-l-activité-parc-national-des-calanques
+.choix-de-l-activité-vieux-port, .choix-de-l-activité-parc-national-des-calanques
 {
     background-color: var(--whitecolor);
-    width: 290px;
+    width: 25%;
     margin: 0 10px 10px 0;
     padding: 5px;
     border-radius: 20px;
     box-shadow: 1px 2px 3px 2px var(--greycolor);
 }
 
-.choix-de-l-activité-vieux-port img,.choix-de-l-activité-parc-national-des-calanques img
+.choix-de-l-activité-vieux-port img, .choix-de-l-activité-parc-national-des-calanques img
 {
     height: 410px;
-    width: 290px;
+    width: 100%;
     object-fit: cover;
     margin: auto;
     border-top-left-radius: 15px;
@@ -443,13 +434,14 @@ input::placeholder
 
 .choix-de-l-activité-bloc-1,.choix-de-l-activité-bloc-2
 {
-    margin: 0 20px 0 20px;
+    /*margin: 0 20px 0 20px;*/
+    width: 25%;
 }
 
 .choix-de-l-activité-fort-de-pomegues
 {
     background-color: var(--whitecolor);
-    width: 290px;
+    /*width: 290px;*/
     margin-right: 10px;
     padding: 5px;
     border-radius: 20px;
@@ -460,7 +452,7 @@ input::placeholder
 .choix-de-l-activité-fort-de-pomegues img
 {
     height: 170px;
-    width: 290px;
+    width: 100%;
     object-fit: cover;
     margin: auto;
     border-top-left-radius: 15px;
@@ -471,7 +463,7 @@ input::placeholder
 .choix-de-l-activité-iles-du-frioul
 {
     background-color: var(--whitecolor);
-    width: 290px;
+    /*width: 290px;*/
     margin-right: 10px;
     padding: 5px;
     border-radius: 20px;
@@ -482,7 +474,7 @@ input::placeholder
 .choix-de-l-activité-iles-du-frioul img
 {
     height: 135px;
-    width: 290px;
+    width: 100%;
     object-fit: cover;
     margin: auto;
     border-top-left-radius: 15px;
@@ -493,7 +485,7 @@ input::placeholder
 .choix-de-l-activité-notre-dame-de-la-garde,.choix-de-l-activité-parc-longchamp
 {
     background-color: var(--whitecolor);
-    width: 290px;
+    /*width: 290px;*/
     padding: 5px;
     border-radius: 20px;
     box-shadow: 1px 2px 3px 2px var(--greycolor);
@@ -503,7 +495,7 @@ input::placeholder
 .choix-de-l-activité-bloc-2 img
 {
     height: 153px;
-    width: 290px;
+    width: 100%;
     object-fit: cover;
     margin: auto;
     border-top-left-radius: 15px;
