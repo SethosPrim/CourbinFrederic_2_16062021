@@ -49,9 +49,11 @@ a
 
 header
 {
+    max-width: 1605px;
     margin: 25px 25px 0 25px;
+    margin-left: auto;
+    margin-right: auto;    
     padding: 25px 25px 10px 25px;
-    max-width: 1700px;
 }
 
 .header-logo-nav
@@ -96,7 +98,7 @@ nav li
 {
     color: var(--bluecolor);
     font-weight: bold;
-    padding: 20px 20px 0 20px;
+    padding: 20px 24px 0 20px;
 }
 
 /* Recherche */
@@ -148,7 +150,7 @@ input::placeholder
 
 .clique-1
 {
-    margin-left: -4px;
+    margin-left: -5px;
     width: 120px;
     height: 45px;
     font-size: 14px;
@@ -163,7 +165,7 @@ input::placeholder
 
 .clique-1:focus
 {
-    *outline: none;*
+    outline: none;
 }
 
 .filtres
@@ -244,7 +246,7 @@ input::placeholder
     display: flex;
     justify-content: center;
     margin: 0 25px 10px 25px;
-    padding: 0 25px 10px 25px;
+    padding: 0 0 10px 0;
 }
 
 .logement
@@ -260,7 +262,7 @@ input::placeholder
 
 .logement h2
 {
-    padding-left: 27px;
+    padding-left: 10px;
 }
 
 .emplacement-choix-du-logement
@@ -314,7 +316,7 @@ input::placeholder
 
 .afficher-plus a
 {
-    padding-left: 30px;
+    padding-left: 10px;
     font-weight: bold;
 }
 
@@ -325,7 +327,7 @@ input::placeholder
     background-color: var(--greycolor);
     border-radius: 20px;
     height: auto;
-    width: 40%;
+    width: 45%;
     max-width: 475px;
     margin-left: 15px;
     padding: 25px;
@@ -347,6 +349,7 @@ input::placeholder
 {
     line-height: 2.5;
     font-size: 20px;
+    padding-right: 10px;
 }
 
 .populaire
@@ -404,15 +407,16 @@ input::placeholder
 
 .section-activité
 {
-    margin: 10px 25px 10px 25px;
-    padding: 0 25px 0 25px;
+    margin: 10px auto;
+    padding: 0 25px;
+    max-width: 1605px;
 }
+
 
 .emplacement-choix-de-l-activité
 {
     display: flex;
     justify-content: space-between;
-    width: 96%;
 }
 
 .emplacement-choix-de-l-activité h4
@@ -423,6 +427,7 @@ input::placeholder
 .choix-de-l-activité-vieux-port,.choix-de-l-activité-parc-national-des-calanques
 {
     background-color: var(--whitecolor);
+    height: 443px;
     width: 290px;
     margin: 0 10px 10px 0;
     padding: 5px;
@@ -432,8 +437,8 @@ input::placeholder
 
 .choix-de-l-activité-vieux-port img,.choix-de-l-activité-parc-national-des-calanques img
 {
-    height: 410px;
-    width: 290px;
+    height: 89%;
+    width: 100%;
     object-fit: cover;
     margin: auto;
     border-top-left-radius: 15px;
@@ -443,7 +448,7 @@ input::placeholder
 
 .choix-de-l-activité-bloc-1,.choix-de-l-activité-bloc-2
 {
-    margin: 0 20px 0 20px;
+    margin-left: 20px;
 }
 
 .choix-de-l-activité-fort-de-pomegues
@@ -520,7 +525,7 @@ input::placeholder
 
 .footer
 {
-    margin: 40px 0 0 0;
+    margin-bottom: 40px;
     background-color: var(--greycolor);
     font-size: 18px;
 }
@@ -529,9 +534,15 @@ input::placeholder
 {
     display: flex;
     justify-content: space-between;
-    max-width: 75%;
-    margin-left: 50px;
-    padding: 10px 0 10px 0;
+    max-width: 1605px;
+    min-width: 960px;
+    margin: auto;
+    padding: 10px 25px;
+}
+
+.a-propos,.nos-hebergements,.assistance
+{
+    padding-right: 192px;
 }
 
 .nav-footer p
