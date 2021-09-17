@@ -245,7 +245,7 @@ input::placeholder
 {
     display: flex;
     justify-content: center;
-    margin: 0 25px 10px 25px;
+    margin: 0 50px 10px 50px;
     padding: 0 0 10px 0;
 }
 
@@ -254,8 +254,7 @@ input::placeholder
     background-color: var(--greycolor);
     border-radius: 20px;
     height: auto;
-    width: 85%;
-    max-width: 1000px;
+    width: 65%;
     margin-right: 15px;
     padding: 25px;
 }
@@ -327,8 +326,7 @@ input::placeholder
     background-color: var(--greycolor);
     border-radius: 20px;
     height: auto;
-    width: 45%;
-    max-width: 475px;
+    width: 31%;
     margin-left: 15px;
     padding: 25px;
 }
