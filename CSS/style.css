@@ -59,7 +59,6 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 #logo img
@@ -71,8 +70,8 @@ header
 
 .liste-barre-de-nav
 {
-    list-style-type: none;
     display: flex;
+    list-style-type: none;
 }
 
 nav li
@@ -114,24 +113,24 @@ nav li
 .rechercher .fa-map-marker-alt
 {
     position: relative;
-    width: 25px;
-    padding: 15px 8px 9px 8px;
-    text-align: center;
     font-size: 0.9em;
+    width: 25px;
+    text-align: center;
+    padding: 15px 8px 9px 8px;
 }
 
 .rechercher .recherche
 {
-    width: 180px;
-    height: 39px;
-    padding-left: 10px;
-    border: 2px solid var(--greycolor);
     font-size: 14px;
     font-weight: bold;
+    width: 180px;
+    height: 39px;
+    border: 2px var(--greycolor) solid;
     border-left: 41px var(--greycolor) solid;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     margin-left: -45px;
+    padding-left: 10px;
 }
 
 input::placeholder
@@ -148,16 +147,16 @@ input::placeholder
 
 .clique-1
 {
-    margin-left: -5px;
-    width: 120px;
-    height: 45px;
     font-size: 14px;
     font-weight: bold;
     background-color: var(--bluecolor);
     color: var(--whitecolor);
+    width: 120px;
+    height: 45px;
     border: none;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    margin-left: -5px;
     cursor: pointer;
 }
 
@@ -182,29 +181,29 @@ input::placeholder
 {
     border: 1px var(--greycolor) solid;
     border-radius: 30px;
-    padding-right: 20px;
     margin-left: 20px;
+    padding-right: 20px;
 }
 
 .filtres i
 {
-    border: 1px var(--bluelightcolor) solid;
-    border-radius: 30px;
+    background-color: var(--bluelightcolor);
+    color: var(--bluecolor);
     width: 36px;
     height: 36px;
-    color: var(--bluecolor);
-    background-color: var(--bluelightcolor);
     text-align: center;
     vertical-align: middle;
     line-height: 2.1;
+    border: 1px var(--bluelightcolor) solid;
+    border-radius: 30px;
     margin-left: -5px;
 }
 
 .filtres a
 {
-    padding-left: 10px;
     font-size: 14px;
     font-weight: bold;
+    padding-left: 10px;
 }
 
 .infos
@@ -216,13 +215,13 @@ input::placeholder
 .infos i
 {
     font-size: 11px;
-    border: 1px var(--greycolor) solid;
-    border-radius: 30px;
+    color: var(--bluecolor);
     width: 25px;
     height: 25px;
-    color: var(--bluecolor);
     text-align: center;
     line-height: 2.1;
+    border: 1px var(--greycolor) solid;
+    border-radius: 30px;
 }
 
 .infos p
@@ -246,8 +245,8 @@ input::placeholder
 .logement
 {
     background-color: var(--greycolor);
-    border-radius: 15px;
     width: 70%;
+    border-radius: 15px;
     margin-right: 20px;
     padding: 20px 25px;
 }
@@ -270,21 +269,21 @@ input::placeholder
 {
     background-color: var(--whitecolor);
     width: 29%;
-    margin: 10px 5px;
-    padding: 5px;
     border-radius: 15px;
     box-shadow: 0 0 6px 3px var(--darkgreycolor);
+    margin: 10px 5px;
+    padding: 5px;
 }
 
 .choix-du-logement img
 {
-    height: 155px;
     width: 100%;
+    height: 155px;
     object-fit: cover;
-    margin: auto;
+    overflow: hidden;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    overflow: hidden
+    margin: auto;
 }
 
 .caracteristique
@@ -310,11 +309,11 @@ input::placeholder
 .afficher-plus a
 {
     display: block;
+    font-weight: bold;
+    font-size: 14px;
     max-width: 1062px;
     margin: 0 auto;
     padding-top: 15px;
-    font-weight: bold;
-    font-size: 14px;
 }
 
 /* Aside */
@@ -322,8 +321,8 @@ input::placeholder
 .les-plus-populaire
 {
     background-color: var(--greycolor);
-    border-radius: 15px;
     width: 30%;
+    border-radius: 15px;
     margin-left: 20px;
     padding: 20px 25px;
 }
@@ -343,18 +342,18 @@ input::placeholder
 
 .titre-aside i
 {
-    line-height: 2.7;
     font-size: 20px;
+    line-height: 2.7;
 }
 
 .populaire
 {
     background-color: var(--whitecolor);
     width: 92%;
-    margin: 20px auto;
-    padding: 5px;
     border-radius: 15px;
     box-shadow: 1px 2px 3px 2px var(--darkgreycolor);
+    margin: 20px auto;
+    padding: 5px;
 }
 
 .choix-du-logement-populaire
@@ -369,16 +368,16 @@ input::placeholder
     min-width: 110px;
     max-width: 188px;
     object-fit: cover;
+    overflow: hidden;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    overflow: hidden
 }
 
 .caracteristique-populaire
 {
-    padding-left: 15px;
     display: flex;
     flex-direction: column;
+    padding-left: 15px;
 }
 
 .caracteristique-populaire h4
@@ -422,11 +421,11 @@ input::placeholder
 .choix-de-l-activité-vieux-port,.choix-de-l-activité-parc-national-des-calanques
 {
     background-color: var(--whitecolor);
-    height: 560px;
     width: 25%;
-    margin: 0 10px 10px 0;
+    height: 560px;
     border-radius: 15px;
     box-shadow: 1px 2px 3px 2px var(--greycolor);
+    margin: 0 10px 10px 0;
 }
 
 .choix-de-l-activité-parc-national-des-calanques
@@ -436,13 +435,13 @@ input::placeholder
 
 .choix-de-l-activité-vieux-port img,.choix-de-l-activité-parc-national-des-calanques img
 {
-    height: 91%;
     width: 100%;
+    height: 91%;
     object-fit: cover;
-    margin: auto;
+    overflow: hidden;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    overflow: hidden
+    margin: auto;
 }
 
 .choix-de-l-activité-bloc-1,.choix-de-l-activité-bloc-2
@@ -454,61 +453,61 @@ input::placeholder
 .choix-de-l-activité-fort-de-pomegues
 {
     background-color: var(--whitecolor);
+    height: 307px;
     border-radius: 15px;
     box-shadow: 1px 2px 3px 2px var(--greycolor);
-    height: 307px;
     margin-bottom: 35px;
 }
 
 .choix-de-l-activité-fort-de-pomegues img
 {
-    height: 84%;
     width: 100%;
+    height: 84%;
     object-fit: cover;
-    margin: auto;
+    overflow: hidden;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    overflow: hidden
+    margin: auto;
 }
 
 .choix-de-l-activité-iles-du-frioul
 {
     background-color: var(--whitecolor);
+    height: 218px;
     border-radius: 15px;
     box-shadow: 1px 2px 3px 2px var(--greycolor);
-    height: 218px;
     margin-bottom: 10px;
 }
 
 .choix-de-l-activité-iles-du-frioul img
 {
-    height: 77%;
     width: 100%;
+    height: 77%;
     object-fit: cover;
-    margin: auto;
+    overflow: hidden;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    overflow: hidden
+    margin: auto;
 }
 
 .choix-de-l-activité-notre-dame-de-la-garde,.choix-de-l-activité-parc-longchamp
 {
     background-color: var(--whitecolor);
+    width: 100%;
+    height: 262px;
     border-radius: 15px;
     box-shadow: 1px 2px 3px 2px var(--greycolor);
-    height: 262px;
-    width: 100%;
 }
 
 .choix-de-l-activité-bloc-2 img
 {
-    height: 81%;
     width: 100%;
+    height: 81%;
     object-fit: cover;
+    overflow: hidden;
     margin: auto;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    overflow: hidden
 }
 
 .choix-de-l-activité-notre-dame-de-la-garde
@@ -520,9 +519,9 @@ input::placeholder
 
 .footer
 {
-    margin-bottom: 40px;
-    background-color: var(--greycolor);
     font-size: 18px;
+    background-color: var(--greycolor);
+    margin-bottom: 40px;
 }
 
 .nav-footer
