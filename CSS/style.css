@@ -174,29 +174,32 @@ input::placeholder
 
 .filtres h3
 {
-    padding-bottom: 1px;
+    margin-right: 10px;
+    padding-top: 3px;
 }
 
 .filtres-divers
 {
     border: 1px var(--greycolor) solid;
     border-radius: 30px;
+    margin-right: 10px;
     margin-left: 20px;
-    padding-right: 20px;
+    padding: 10px 20px 9px 40px;
 }
 
 .filtres i
 {
     background-color: var(--bluelightcolor);
     color: var(--bluecolor);
-    width: 36px;
-    height: 36px;
+    width: 38px;
+    height: 38px;
+    position: absolute;
     text-align: center;
-    vertical-align: middle;
-    line-height: 2.1;
+    line-height: 2.5;
     border: 1px var(--bluelightcolor) solid;
     border-radius: 30px;
-    margin-left: -5px;
+    margin-top: -11px;
+    margin-left: -42px;
 }
 
 .filtres a
