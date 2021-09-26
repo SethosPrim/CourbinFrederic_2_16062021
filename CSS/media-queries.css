@@ -1,0 +1,50 @@
+/* Eléments principaux de la page */
+
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+    h1, h2
+    {
+        font-size: 14px;
+    }
+
+    h3
+    {
+        font-size: 11px;
+    }
+
+    h4, p, a
+    {
+        font-size: 9px;
+    }
+
+    .choix-du-logement img
+    {
+        height: 85px;
+    }
+
+    .titre-aside i 
+    {
+        line-height: 2.5;
+        font-size: 16px;
+    }
+        
+    .choix-du-logement-populaire img
+    {
+        height: 100px;
+        width: 100%;
+        min-width: 65px;
+        max-width: 95px;
+    }
+
+    .choix-de-l-activité-vieux-port, .choix-de-l-activité-parc-national-des-calanques
+    {
+        height: 290px;
+    }
+
+    .choix-de-l-activité-vieux-port img, .choix-de-l-activité-parc-national-des-calanques img
+    {
+        height: 55%;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px)
