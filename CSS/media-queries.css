@@ -1,7 +1,375 @@
-/* Eléments principaux de la page */
+@media screen and (min-width: 1250px) and (max-width: 1439px)
+{
+    /* Eléments principaux de la page */
+
+    h1, h2
+    {
+        font-size: 18px;
+    }
+
+    h3
+    {
+        font-size: 16px;
+    }
+
+    h4, p, a
+    {
+        font-size: 14px;
+    }
+
+    /* Header */
+
+    #logo img
+    {
+        width: 21%;
+    }
+
+    /* Recherche */
+
+    .recherche h1
+    {
+        margin: 18px 0 5px 0;
+    }
+
+    .rechercher
+    {
+        margin-top: 18px;
+    }
+
+    /* Hébergement */
+
+    .section-hebergement
+    {
+        margin: 10px auto;
+    }
+
+    .logement
+    {
+        margin-right: 15px;
+    }
+ 
+    .logement h2
+    {
+        max-width: 718px;
+        margin: 14px auto;
+    }
+
+    .emplacement-choix-du-logement
+    {
+        margin-bottom: 0;
+    }
+
+    .emplacement-choix-du-logement a
+    {
+        width: 29%;
+        margin: 10px 9px 15px 9px;
+    }
+
+    .choix-du-logement img
+    {
+        height: 115px;
+    }
+
+    .afficher-plus a
+    {
+        max-width: 718px;
+        padding-top: 20px;
+    }
+
+    /* Aside */
+
+    .les-plus-populaire
+    {
+        margin-left: 15px;
+        padding: 20px 25px 10px 25px;
+    }
+
+    .titre-aside
+    {
+        max-width: 303px;
+    }
+
+    .titre-aside h2
+    {
+        margin: 14px 0;
+    }
+
+    .titre-aside i
+    {
+        line-height: 3;
+        font-size: 16px;
+    }
+        
+    .choix-du-logement-populaire img
+    {
+        height: 135px;
+        width: 100%;
+        min-width: 110px;
+        max-width: 130px;
+    }
+    
+    /* Activité */
+
+    .section-activité
+    {
+        margin: 25px auto;
+    }
+
+    .choix-de-l-activité-vieux-port, .choix-de-l-activité-parc-national-des-calanques
+    {
+        height: 400px;
+    }
+
+    .choix-de-l-activité-parc-national-des-calanques
+    {
+        margin-left: 30px;
+    }
+
+    .choix-de-l-activité-vieux-port img, .choix-de-l-activité-parc-national-des-calanques img
+    {
+        height: 90%;
+    }
+        
+    .choix-de-l-activité-bloc-1,.choix-de-l-activité-bloc-2
+    {
+        margin-left: 20px;
+    }
+
+    .choix-de-l-activité-fort-de-pomegues
+    {
+        height: 225px;
+        margin-bottom: 30px;
+    }
+  
+    .choix-de-l-activité-fort-de-pomegues img
+    {
+        height: 82%;
+    }
+
+    .choix-de-l-activité-iles-du-frioul
+    {
+        height: 145px;
+        margin-bottom: 10px;
+    }
+
+    .choix-de-l-activité-iles-du-frioul img
+    {
+        height: 105px;
+    }
+
+    .choix-de-l-activité-notre-dame-de-la-garde,.choix-de-l-activité-parc-longchamp
+    {
+        height: 185px;
+    }
+
+    .choix-de-l-activité-bloc-2 img
+    {
+        height: 145px;
+    }
+
+    .choix-de-l-activité-notre-dame-de-la-garde
+    {
+        margin-bottom: 30px;
+    }
+
+    /* Footer */
+
+    .nav-footer
+    {
+        max-width: 1140px;
+        min-width: 0;
+        margin: 0 auto 0 0;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1249px)
+{
+     /* Eléments principaux de la page */ /*
+
+     h1, h2
+     {
+         font-size: 18px;
+     }
+ 
+     h3
+     {
+         font-size: 16px;
+     }
+ 
+     h4, p, a
+     {
+         font-size: 14px;
+     } */
+ 
+     /* Header */ /*
+ 
+     #logo img
+     {
+         width: 21%;
+     } */
+ 
+     /* Recherche */ /*
+ 
+     .recherche h1
+     {
+         margin: 18px 0 5px 0;
+     }
+ 
+     .rechercher
+     {
+         margin-top: 18px;
+     } */
+ 
+     /* Hébergement */ /*
+ 
+     .section-hebergement
+     {
+         margin: 10px auto;
+     }
+ 
+     .logement
+     {
+         margin-right: 15px;
+     }
+  
+     .logement h2
+     {
+         max-width: 718px;
+         margin: 14px auto;
+     }
+ 
+     .emplacement-choix-du-logement
+     {
+         margin-bottom: 0;
+     }
+ 
+     .emplacement-choix-du-logement a
+     {
+         width: 29%;
+         margin: 10px 9px 15px 9px;
+     }
+ 
+     .choix-du-logement img
+     {
+         height: 115px;
+     }
+ 
+     .afficher-plus a
+     {
+         max-width: 718px;
+         padding-top: 20px;
+     } */
+ 
+     /* Aside */ /*
+ 
+     .les-plus-populaire
+     {
+         margin-left: 15px;
+         padding: 20px 25px 10px 25px;
+     }
+ 
+     .titre-aside
+     {
+         max-width: 303px;
+     }
+ 
+     .titre-aside h2
+     {
+         margin: 14px 0;
+     }
+ 
+     .titre-aside i
+     {
+         line-height: 3;
+         font-size: 16px;
+     }
+         
+     .choix-du-logement-populaire img
+     {
+         height: 135px;
+         width: 100%;
+         min-width: 110px;
+         max-width: 130px;
+     } */
+     
+     /* Activité */ /*
+ 
+     .section-activité
+     {
+         margin: 25px auto;
+     }
+ 
+     .choix-de-l-activité-vieux-port, .choix-de-l-activité-parc-national-des-calanques
+     {
+         height: 400px;
+     }
+ 
+     .choix-de-l-activité-parc-national-des-calanques
+     {
+         margin-left: 30px;
+     }
+ 
+     .choix-de-l-activité-vieux-port img, .choix-de-l-activité-parc-national-des-calanques img
+     {
+         height: 90%;
+     }
+         
+     .choix-de-l-activité-bloc-1,.choix-de-l-activité-bloc-2
+     {
+         margin-left: 20px;
+     }
+ 
+     .choix-de-l-activité-fort-de-pomegues
+     {
+         height: 225px;
+         margin-bottom: 30px;
+     }
+   
+     .choix-de-l-activité-fort-de-pomegues img
+     {
+         height: 82%;
+     }
+ 
+     .choix-de-l-activité-iles-du-frioul
+     {
+         height: 145px;
+         margin-bottom: 10px;
+     }
+ 
+     .choix-de-l-activité-iles-du-frioul img
+     {
+         height: 105px;
+     }
+ 
+     .choix-de-l-activité-notre-dame-de-la-garde,.choix-de-l-activité-parc-longchamp
+     {
+         height: 185px;
+     }
+ 
+     .choix-de-l-activité-bloc-2 img
+     {
+         height: 145px;
+     }
+ 
+     .choix-de-l-activité-notre-dame-de-la-garde
+     {
+         margin-bottom: 30px;
+     } */
+ 
+     /* Footer */
+ 
+     .nav-footer
+     {
+         max-width: 1140px;
+         min-width: 0;
+         margin: 0 auto 0 0;
+     }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1023px)
 {
+    /* Eléments principaux de la page */
+
     h1, h2
     {
         font-size: 14px;
@@ -17,14 +385,81 @@
         font-size: 9px;
     }
 
+    /* Header */
+
+    #logo img
+    {
+        width: 17%;
+    }
+
+    /* Recherche */
+
+    .recherche h1
+    {
+        margin: 10px 0 5px 0;
+    }
+
+    .rechercher
+    {
+        margin-top: 15px;
+    }
+
+    /* Hébergement */
+
+    .section-hebergement
+    {
+        margin: 10px auto;
+    }
+
+    .logement
+    {
+        margin-right: 15px;
+    }
+
+    .logement h2
+    {
+        max-width: 530px;
+        margin: 14px auto;
+    }
+
+    .emplacement-choix-du-logement
+    {
+        margin-bottom: 0;
+    }
+
+    .emplacement-choix-du-logement a
+    {
+        width: 28%;
+        margin: 10px 9px 15px 9px;
+    }
+
     .choix-du-logement img
     {
         height: 85px;
     }
 
-    .titre-aside i 
+    .afficher-plus a
     {
-        line-height: 2.5;
+        max-width: 530px;
+        padding-top: 15px;
+    }
+
+    /* Aside */
+
+    .les-plus-populaire
+    {
+        margin-left: 15px;
+        padding: 20px 25px 10px 25px;
+    }
+
+    .titre-aside
+    {
+        max-width: 229px;
+    }
+
+    .titre-aside i
+    {
+        line-height: 3;
         font-size: 16px;
     }
         
@@ -35,18 +470,54 @@
         min-width: 65px;
         max-width: 95px;
     }
+    
+    /* Activité */
+
+    .section-activité
+    {
+        margin: 25px auto;
+    }
 
     .choix-de-l-activité-vieux-port, .choix-de-l-activité-parc-national-des-calanques
     {
-        height: 290px;
+        height: 280px;
     }
 
     .choix-de-l-activité-vieux-port img, .choix-de-l-activité-parc-national-des-calanques img
     {
-        height: 55%;
+        height: 89%;
+    }
+        
+    .choix-de-l-activité-bloc-1,.choix-de-l-activité-bloc-2
+    {
+        margin-left: 20px;
+    }
+
+    .choix-de-l-activité-fort-de-pomegues
+    {
+        height: 150px;
+        margin-bottom: 30px;
+    }
+    
+    .choix-de-l-activité-fort-de-pomegues img
+    {
+        height: 79%;
+        margin: auto;
+    }
+
+                                     /* §§§§§§§§§§§§§§§§§§§§§§§§§§ TERMINER CE MODULE §§§§§§§§§§§§§§§§§§§§§§§§§§ */
+
+    /* Footer */
+
+    .nav-footer
+    {
+        min-width: 0;
     }
 }
 
 @media screen and (min-width: 426px) and (max-width: 767px)
+{
+
+}
 
 /* NE PAS OUBLIER LE FORMAT POUR L'IMPRESSION */
