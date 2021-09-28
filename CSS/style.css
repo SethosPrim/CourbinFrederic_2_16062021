@@ -49,7 +49,7 @@ a
 
 header
 {
-    max-width: 1710px;
+    width: 91%;
     margin: 25px auto 0 auto;
     padding: 25px 25px 10px 25px;
 }
@@ -240,7 +240,7 @@ input::placeholder
 {
     display: flex;
     justify-content: center;
-    max-width: 1710px;
+    width: 91%;
     margin: 15px auto;
     padding: 0 25px 10px 25px;
 }
@@ -256,7 +256,7 @@ input::placeholder
 
 .logement h2
 {
-    max-width: 1062px;
+    width: 97%;
     margin: 16px auto;
 }
 
@@ -314,7 +314,7 @@ input::placeholder
     display: block;
     font-weight: bold;
     font-size: 14px;
-    max-width: 1062px;
+    width: 97%;
     margin: 0 auto;
     padding-bottom: 15px;
 }
@@ -334,7 +334,7 @@ input::placeholder
 {
     display: flex;
     justify-content: space-between;
-    max-width: 445px;
+    width: 95%;
     margin: auto;
 }
 
@@ -367,9 +367,9 @@ input::placeholder
 .choix-du-logement-populaire img
 {
     height: 168px;
-    width: 68%;
-    min-width: 110px;
-    max-width: 188px;
+    width: 100%;
+    min-width: 150px;
+    max-width: 150px;
     object-fit: cover;
     overflow: hidden;
     border-top-left-radius: 10px;
@@ -404,7 +404,7 @@ input::placeholder
 
 .section-activité
 {
-    max-width: 1710px;
+    width: 91%;
     margin: 40px auto;
     padding: 0 25px;
 }
@@ -531,10 +531,9 @@ input::placeholder
 {
     display: flex;
     justify-content: flex-start;
-    max-width: 1697px;
-    min-width: 960px;
+    width: 91%;
     margin: 0 auto;
-    padding: 15px 40px 35px 25px;
+    padding: 15px 25px 35px 25px;
 }
 
 .a-propos,.nos-hebergements,.assistance
