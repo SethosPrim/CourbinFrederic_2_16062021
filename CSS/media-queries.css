@@ -765,4 +765,229 @@
     } */
 }
 
+@media screen and (min-width: 245px) and (max-width: 425px)
+{
+    /* Eléments principaux de la page */ /*
+
+    h1, h2
+    {
+        font-size: 14px;
+    }
+
+    h3
+    {
+        font-size: 11px;
+    }
+
+    h4, p, a
+    {
+        font-size: 9px;
+    }
+
+    /* Header */
+
+    .header
+    {
+        width: 60%;
+    }
+
+    .header-logo-nav
+    {
+        flex-wrap: wrap;
+    }
+
+    #logo
+    {
+        width: 50%;
+    }
+
+    #logo img
+    {
+        width: 100%;
+    }
+
+    /* Recherche */ /*
+
+    .recherche h1
+    {
+        margin: 10px 0 5px 0;
+    }
+
+    .rechercher
+    {
+        margin-top: 15px;
+    }
+
+    .rechercher .fa-map-marker-alt
+    {
+        padding: 8px;
+    }
+
+    .rechercher .recherche
+    {
+        height: 35px;
+    }
+
+    .clique-1
+    {
+        height: 41px;
+    } */
+
+    .filtres
+    {
+        flex-wrap: wrap;
+    } /*
+
+    .filtres-divers
+    {
+        padding: 8px 20px 7px 40px;
+    }
+
+    .filtres i
+    {
+        width: 34px;
+        height: 34px;
+        line-height: 2.3;
+        margin-top: -9px;
+    }
+        /* Hébergement */ /*
+
+    .section-hebergement
+    {
+        margin: 10px auto;
+    }
+
+    .logement
+    {
+        margin-right: 15px;
+        padding: 15px;
+    }
+
+    .logement h2
+    {
+        margin: 14px auto;
+    }
+
+    .emplacement-choix-du-logement
+    {
+        margin-bottom: 0;
+    }
+
+    .emplacement-choix-du-logement a
+    {
+        width: 28%;
+        margin: 10px 9px 15px 9px;
+    }
+
+    .choix-du-logement img
+    {
+        height: 87px;
+    }
+
+    .caracteristique
+    {
+        margin: 0 10px 5px 10px;
+    }
+
+    .afficher-plus a
+    {
+        padding-top: 15px;
+    }
+
+    /* Aside */ /*
+
+    .les-plus-populaire
+    {
+        margin-left: 15px;
+        padding: 15px 20px 10px 20px;
+    }
+
+    .titre-aside h2
+    {
+        margin: 14px 0;
+    }
+
+    .titre-aside i
+    {
+        line-height: 2.6;
+        font-size: 16px;
+    }
+
+    .populaire
+    {
+        margin: 18px auto;
+    }
+        
+    .choix-du-logement-populaire img
+    {
+        height: 100px;
+        width: 100%;
+        min-width: 65px;
+        max-width: 95px;
+    }
+    
+    /* Activité */ /*
+
+    .section-activité
+    {
+        margin: 25px auto;
+    }
+
+    .choix-de-l-activité-vieux-port, .choix-de-l-activité-parc-national-des-calanques
+    {
+        height: 280px;
+    }
+
+    .choix-de-l-activité-parc-national-des-calanques
+    {
+        margin-left: 30px;
+    }
+
+    .choix-de-l-activité-vieux-port img, .choix-de-l-activité-parc-national-des-calanques img
+    {
+        height: 89%;
+    }
+        
+    .choix-de-l-activité-bloc-1,.choix-de-l-activité-bloc-2
+    {
+        margin-left: 20px;
+    }
+
+    .choix-de-l-activité-fort-de-pomegues
+    {
+        height: 150px;
+        margin-bottom: 30px;
+    }
+    
+    .choix-de-l-activité-fort-de-pomegues img
+    {
+        height: 79%;
+    }
+
+    .choix-de-l-activité-iles-du-frioul
+    {
+        height: 100px;
+    }
+
+    .choix-de-l-activité-iles-du-frioul img
+    {
+        height: 69%;
+    }
+
+    .choix-de-l-activité-notre-dame-de-la-garde,.choix-de-l-activité-parc-longchamp
+    {
+        height: 125px;
+    }
+
+    .choix-de-l-activité-bloc-2 img
+    {
+        height: 94px;
+    }
+
+    .choix-de-l-activité-notre-dame-de-la-garde
+    {
+        margin-bottom: 30px;
+    } */
+}
+
 /* NE PAS OUBLIER LE FORMAT POUR L'IMPRESSION */
