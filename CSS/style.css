@@ -66,6 +66,11 @@ header
     width: 23%;
 }
 
+.inscription-portable
+{
+    display: none;
+}
+
 /* Navigation */
 
 .liste-barre-de-nav

@@ -3,6 +3,7 @@
 
     <head>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -13,59 +14,58 @@
     </head>
 
     <body>
-        <div class="bloc_header">
-            <header>
-                <div class="header-logo-nav">
-                    <div id="logo">
-                        <img src="images/logo/Reservia@3x.png" alt="logo de Reservia">
-                    </div>
-
-                    <nav class="navigation">
-                        <ul class="liste-barre-de-nav">
-                            <li><a href="#section-hebergement" class="nav-1-2">Hébergements</a></li>
-                            <li><a href="#section-activité" class="nav-1-2">Activités</a></li>
-                            <li><a href="#" class="inscription">S'inscrire</a></li>
-                        </ul>  
-                    </nav>
+        <header class="bloc_header">
+            <div class="header-logo-nav">
+                <div id="logo">
+                    <img src="images/logo/Reservia@3x.png" alt="logo de Reservia">
+                    <p><a href="#" class="inscription-portable">S'inscrire</a></p>
                 </div>
-           
-                <div class="recherche">
-                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 
-                    <p>En plein centre ville ou en pleine nature</p>
+                <nav class="navigation">
+                    <ul class="liste-barre-de-nav">
+                        <li><a href="#section-hebergement" class="nav-1-2">Hébergements</a></li>
+                        <li><a href="#section-activité" class="nav-1-2">Activités</a></li>
+                        <li><a href="#" class="inscription">S'inscrire</a></li>
+                    </ul>  
+                </nav>
+            </div>
+        
+            <div class="recherche">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 
-                    <div class="rechercher">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <input type="text" class="recherche" placeholder="Marseille, France"/>
-                        <button class="clique-1">Rechercher</button>
-                    </div> 
+                <p>En plein centre ville ou en pleine nature</p>
 
-                    <div class="filtres">
-                        <h3>Filtres</h3>
+                <div class="rechercher">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="text" class="recherche" placeholder="Marseille, France"/>
+                    <button class="clique-1">Rechercher</button>
+                </div> 
 
-                        <div class="filtres-divers">
-                            <i class="fas fa-money-bill-wave"></i><a href="#">Économique</a>
-                        </div>
+                <div class="filtres">
+                    <h3>Filtres</h3>
 
-                        <div class="filtres-divers">
-                            <i class="fas fa-child"></i><a href="#">Familial</a>
-                        </div>
-
-                        <div class="filtres-divers">
-                            <i class="fas fa-heart"></i><a href="#">Romantique</a>
-                        </div>
-
-                        <div class="filtres-divers">
-                            <i class="fas fa-dog"></i><a href="#">Animaux autorisés</a>
-                        </div>   
+                    <div class="filtres-divers">
+                        <i class="fas fa-money-bill-wave"></i><a href="#">Économique</a>
                     </div>
 
-                    <div class="infos">
-                        <i class="fas fa-info"></i><p>Plus de 500 logements sont disponibles dans cette ville</p>
+                    <div class="filtres-divers">
+                        <i class="fas fa-child"></i><a href="#">Familial</a>
                     </div>
+
+                    <div class="filtres-divers">
+                        <i class="fas fa-heart"></i><a href="#">Romantique</a>
+                    </div>
+
+                    <div class="filtres-divers">
+                        <i class="fas fa-dog"></i><a href="#">Animaux autorisés</a>
+                    </div>   
                 </div>
-            </header>
-        </div>
+
+                <div class="infos">
+                    <i class="fas fa-info"></i><p>Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
+            </div>
+        </header>
 
         <main class="bloc-hebergement">
             <section class="section-hebergement" id="section-hebergement">

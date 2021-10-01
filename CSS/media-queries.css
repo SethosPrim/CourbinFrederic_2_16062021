@@ -786,11 +786,6 @@
 
     /* Header */
 
-    .header
-    {
-        width: 60%;
-    }
-
     .header-logo-nav
     {
         flex-wrap: wrap;
@@ -798,12 +793,27 @@
 
     #logo
     {
-        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
     }
 
     #logo img
     {
-        width: 100%;
+        width: 40%;
+    }
+
+    .inscription
+    {
+        display: none;
+    }
+
+    .inscription-portable
+    {
+        display: inline;
+        color: var(--bluecolor);
+        font-weight: bold;
     }
 
     /* Recherche */ /*
