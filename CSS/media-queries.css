@@ -765,26 +765,32 @@
     } */
 }
 
-@media screen and (min-width: 245px) and (max-width: 425px)
+@media screen and (max-width: 425px)
 {
-    /* Eléments principaux de la page */ /*
+    /* Eléments principaux de la page */
 
     h1, h2
     {
-        font-size: 14px;
+        font-size: 24px;
     }
 
     h3
     {
-        font-size: 11px;
+        font-size: 21px;
     }
 
     h4, p, a
     {
-        font-size: 9px;
+        font-size: 18px;
     }
 
     /* Header */
+
+    .bloc_header
+    {
+        width: 90%;
+        padding: 25px 0;
+    }
 
     .header-logo-nav
     {
@@ -801,7 +807,9 @@
 
     #logo img
     {
-        width: 40%;
+        width: 35%;
+        margin-top: -12px;
+        margin-left: 10px;
     }
 
     .inscription
@@ -814,19 +822,63 @@
         display: inline;
         color: var(--bluecolor);
         font-weight: bold;
+        font-size: 22px;
+        margin-right: -10px;
     }
 
-    /* Recherche */ /*
+    /* Navigation */
+
+    .liste-barre-de-nav
+    {
+        padding: 0;
+    }
+
+    .liste-barre-de-nav li
+    {
+        margin: 0;
+    }
+
+    .nav-1-2
+    {
+        color: black;
+        font-size: 20px;
+        padding: 20px 35px;
+        border-bottom: 3px var(--greycolor) solid;
+    }
+
+    .nav-1-2:hover
+    {
+        border-top: none;
+        border-bottom: 3px solid var(--bluecolor);
+        color: var(--bluecolor);
+    }
+
+    .nav-1
+    {
+        margin-left: -20px;
+    } /*
+
+    .nav-2
+    {
+        padding: 20px 60px;
+    }
+
+    /* Recherche */
 
     .recherche h1
     {
-        margin: 10px 0 5px 0;
+        margin: 45px 10px 15px 10px;
+    }
+
+    .recherche p
+    {
+        margin: 0 10px;
     }
 
     .rechercher
     {
         margin-top: 15px;
-    }
+    } /*
 
     .rechercher .fa-map-marker-alt
     {
