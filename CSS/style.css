@@ -170,6 +170,11 @@ input::placeholder
     outline: none;
 }
 
+.clique-2
+{
+    display: none;
+}
+
 .filtres
 {
     display: flex;
@@ -194,11 +199,11 @@ input::placeholder
 
 .filtres i
 {
+    position: absolute;
     background-color: var(--bluelightcolor);
     color: var(--bluecolor);
     width: 38px;
     height: 38px;
-    position: absolute;
     text-align: center;
     line-height: 2.5;
     border: 1px var(--bluelightcolor) solid;
