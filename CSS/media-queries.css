@@ -967,7 +967,7 @@
 
     .filtres-divers
     {
-        border: 2px var(--greycolor) solid;
+        border: 2px var(--darkgreycolor) solid;
         margin: 5px 0 8px 10px;
         padding: 11px 20px 10px 40px;
     }
@@ -1003,6 +1003,7 @@
         width: 22px;
         height: 21px;
         line-height: 1.7;
+        border: 1px var(--darkgreycolor) solid;
     }
     
     .infos p
@@ -1135,6 +1136,7 @@
         width: initial;
         height: 185px;
         margin: 25px auto;
+        box-shadow: 1px 2px 7px 2px var(--darkgreycolor);
     }
 
     .choix-de-l-activité-vieux-port img, .choix-de-l-activité-parc-national-des-calanques img, .choix-de-l-activité-fort-de-pomegues img, .choix-de-l-activité-iles-du-frioul img, .choix-de-l-activité-notre-dame-de-la-garde img, .choix-de-l-activité-parc-longchamp img
@@ -1150,10 +1152,21 @@
     
     /* Footer */
 
+    .footer
+    {
+        width: 100%;
+        border-right: 1px var(--greycolor) solid;
+        border-bottom: 1px var(--greycolor) solid;
+        border-left: 1px var(--greycolor) solid;
+    }
+
     .nav-footer
     {
         display: inline-block;
         width: 87%;
+        border-right: 1px var(--whitecolor) solid;
+        border-bottom: 1px var(--whitecolor) solid;
+        border-left: 1px var(--whitecolor) solid;
         padding: 5px 25px 10px 25px;
     }
 
