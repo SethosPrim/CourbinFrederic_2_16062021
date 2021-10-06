@@ -35,7 +35,7 @@ a
 {
     --bluecolor: #0065FC;
     --bluelightcolor: #DEEBFF;
-    --greycolor: #F2F2F2;
+    --greycolor: #bd1d1d; /* --greycolor: #F2F2F2; */
     --darkgreycolor: #B1B1B14B;
     --whitecolor: white;
 }

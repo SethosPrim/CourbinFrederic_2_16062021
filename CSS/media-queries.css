@@ -915,7 +915,7 @@
 
     .rechercher .recherche
     {
-        font-size: 18px;
+        font-size: 17px;
         width: auto;
         max-width: 64%;
         height: 50px;
@@ -1061,7 +1061,8 @@
 
     .liseré
     {
-        width: 105%;
+        display: flex;
+        justify-content: center;
         border-left: 1px var(--greycolor) solid;
         border-right: 1px var(--greycolor) solid;
         margin: 0 -10px;
@@ -1069,10 +1070,10 @@
 
     .les-plus-populaire
     {
-        width: 99%;
+        width: 100%;
         border-radius: initial;
         border-left: 1px var(--whitecolor) solid;
-        border-right: 2px var(--greycolor) solid;
+        border-right: 1px var(--whitecolor) solid;
         margin: initial;
         padding: 0 0 35px 0;
     }
@@ -1154,6 +1155,8 @@
 
     .footer
     {
+        display: flex;
+        justify-content: center;        
         width: 100%;
         border-right: 1px var(--greycolor) solid;
         border-bottom: 1px var(--greycolor) solid;
