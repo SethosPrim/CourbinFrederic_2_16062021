@@ -798,8 +798,8 @@
 
     .bloc_header
     {
-        width: 95%;
-        margin: 30px auto;
+        width: 100%;
+        margin: 30px 0;
         padding: initial;
     }
 
@@ -813,7 +813,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 95%;
+        width: 92%;
         margin: auto;
     }
 
@@ -889,20 +889,20 @@
 
     .recherche h1
     {
-        width: 90%;
+        width: 87%;
         margin: 45px auto 15px auto;
     }
 
     .recherche p
     {
         font-size: 16px;
-        width: 90%;
+        width: 87%;
         margin: auto;
     }
 
     .rechercher
     {
-        width: 90%;
+        width: 87%;
         margin: 30px auto;
     }
 
@@ -956,20 +956,28 @@
     .filtres
     {
         flex-wrap: wrap;
-        width: 95%;
+        width: 87%;
         margin: 20px auto 0 auto;
     }
     
     .filtres h3
     {
-        margin: 0 150px 10px 10px;
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        margin: 0 auto 10px auto;
     }
 
     .filtres-divers
     {
         border: 2px var(--darkgreycolor) solid;
-        margin: 5px 0 8px 10px;
+        margin: 5px 0 8px 0;
         padding: 11px 20px 10px 40px;
+    }
+
+    .economique
+    {
+        margin-right: 10px;
     }
 
     .filtres i
@@ -993,7 +1001,7 @@
     
     .infos
     {
-        width: 90%;
+        width: 87%;
         margin: 20px auto 0 auto;
     }
 
@@ -1018,14 +1026,15 @@
     .section-hebergement
     {
         flex-direction: column-reverse;
-        margin: auto;
+        width: 100%;
+        margin: 0;
         padding: initial;
     }
 
     .logement
     {
         background-color: initial;
-        width: 94%;
+        width: 87%;
         margin: 25px auto 10px auto;
         padding: initial;
     }
@@ -1065,7 +1074,7 @@
         justify-content: center;
         border-left: 1px var(--greycolor) solid;
         border-right: 1px var(--greycolor) solid;
-        margin: 0 -10px;
+        /* margin: 0 -10px; */
     }
 
     .les-plus-populaire
@@ -1080,7 +1089,7 @@
 
     .titre-aside
     {
-        width: 91%;
+        width: 88%;
         padding-top: 25px;
     }
 
@@ -1091,7 +1100,7 @@
 
     .populaire
     {
-        width: 87%;
+        width: 85%;
         box-shadow: 1px 2px 7px 2px #B1B1B194;
         margin: 10px auto;
     }
@@ -1127,7 +1136,7 @@
 
     .section-activité
     {
-        width: 86%;
+        width: 87%;
         margin: 25px auto 45px auto;
         padding: initial;
     }
@@ -1157,7 +1166,7 @@
     {
         display: flex;
         justify-content: center;        
-        width: 100%;
+        /* width: 100%; */
         border-right: 1px var(--greycolor) solid;
         border-bottom: 1px var(--greycolor) solid;
         border-left: 1px var(--greycolor) solid;
@@ -1166,7 +1175,6 @@
     .nav-footer
     {
         display: inline-block;
-        width: 87%;
         border-right: 1px var(--whitecolor) solid;
         border-bottom: 1px var(--whitecolor) solid;
         border-left: 1px var(--whitecolor) solid;

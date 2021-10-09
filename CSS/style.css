@@ -3,6 +3,11 @@ html
     font-family: raleway;
 }
 
+body
+{
+    margin: 0;
+}
+
 /* Eléments principaux de la page */
 
 h1, h2
@@ -35,7 +40,7 @@ a
 {
     --bluecolor: #0065FC;
     --bluelightcolor: #DEEBFF;
-    --greycolor: #bd1d1d; /* --greycolor: #F2F2F2; */
+    --greycolor: #bd1d1d; /* --greycolor: #F2F2F2; */ /* redcolor #bd1d1d; */
     --darkgreycolor: #B1B1B14B;
     --whitecolor: white;
 }
@@ -533,7 +538,6 @@ input::placeholder
 {
     font-size: 18px;
     background-color: var(--greycolor);
-    margin-bottom: 40px;
 }
 
 .nav-footer
