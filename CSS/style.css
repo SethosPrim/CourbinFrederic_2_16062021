@@ -157,6 +157,7 @@ input::placeholder
 
 .clique-1
 {
+    position: absolute;
     font-size: 14px;
     font-weight: bold;
     background-color: var(--bluecolor);
@@ -164,6 +165,7 @@ input::placeholder
     width: 120px;
     height: 45px;
     border: none;
+    border-left: 2px var(--greycolor) solid;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     margin-left: -5px;

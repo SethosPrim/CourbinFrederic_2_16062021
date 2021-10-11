@@ -355,7 +355,7 @@
      }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px)
+@media screen and (min-width: 801px) and (max-width: 1023px)
 {
     /* Eléments principaux de la page */
 
@@ -560,7 +560,7 @@
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 767px)
+@media screen and (min-width: 426px) and (max-width: 800px)
 {
     /* Eléments principaux de la page */ /*
 
@@ -579,64 +579,150 @@
         font-size: 9px;
     }
 
-    /* Header */ /*
+    /* Header */
 
-    #logo img
-    {
-        width: 17%;
-    }
-
-    /* Recherche */ /*
-
-    .recherche h1
-    {
-        margin: 10px 0 5px 0;
-    }
-
-    .rechercher
-    {
-        margin-top: 15px;
-    }
-
-    .rechercher .fa-map-marker-alt
-    {
-        padding: 8px;
-    }
-
-    .rechercher .recherche
-    {
-        height: 35px;
-    }
-
-    .clique-1
-    {
-        height: 41px;
-    }
-
-    .filtres-divers
-   {
-       padding: 8px 20px 7px 40px;
-   }
-
-   .filtres i
-   {
-       width: 34px;
-       height: 34px;
-       line-height: 2.3;
-       margin-top: -9px;
-   }
-    /* Hébergement */ /*
-
-    .section-hebergement
+    .bloc_header
     {
         margin: 10px auto;
     }
 
+    .header-logo-nav
+    {
+        flex-wrap: wrap;
+    }
+
+    #logo
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    #logo img
+    {
+        width: 16%;
+    }
+
+    .inscription
+    {
+        display: none;
+    }
+
+    .inscription-portable
+    {
+        display: inline;
+        color: var(--bluecolor);
+        font-weight: bold;
+        font-size: 18px;
+        margin-right: -5px;
+    }
+
+    /* Navigation */
+
+    .navigation
+    {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .liste-barre-de-nav
+    {
+        padding: initial;
+    }
+
+    .liste-barre-de-nav li
+    {
+        margin: auto;
+    }
+
+    .nav-1-2
+    {
+        color: black;
+        font-size: 18px;
+        border-bottom: 3px var(--greycolor) solid;
+    }
+
+    .nav-1
+    {
+        margin-right: 20px;
+        padding: 20px 38px;
+    }
+
+    .nav-2
+    {
+        margin-left: 20px;
+        padding: 20px 55px;
+    }
+
+    .nav-1-2:hover
+    {
+        border-top: none;
+        border-bottom: 3px solid var(--bluecolor);
+        color: var(--bluecolor);
+    }
+
+    /* Recherche */
+
+    .recherche h1
+    {
+        margin: 35px 0 20px 0;
+    }
+
+    .rechercher .recherche
+    {
+        font-size: 16px;
+        width: 190px;
+    }
+
+    .filtres
+    {
+        flex-wrap: wrap;
+        width: initial;
+        margin: initial;
+    }
+    
+    .filtres h3
+    {
+        display: initial;
+        width: 100%;
+    }
+    
+    .filtres-divers
+    {
+        border: 2px var(--darkgreycolor) solid;
+        margin: 5px 8px 8px 0;
+        padding: 11px 20px 10px 40px;
+    }
+
+    .filtres i
+    {
+        width: 42px;
+        height: 42px;
+        line-height: 2.7;
+        margin-top: -13px;
+        margin-left: -43px;
+    }
+
+    /* Hébergement */
+
+    .section-hebergement
+    {
+        flex-direction: column-reverse;
+        width: initial;
+        margin: 10px auto;
+        padding: initial;
+    }
+
     .logement
     {
-        margin-right: 15px;
-        padding: 15px;
-    }
+        width: initial;
+        border-radius: initial;
+        margin: initial;
+        padding: 20px 25px;
+    } /*
 
     .logement h2
     {
@@ -669,18 +755,39 @@
         padding-top: 15px;
     }
 
-    /* Aside */ /*
+    /* Aside */
+    
+    .liseré
+    {
+        width: initial;
+        border-left: 1px var(--greycolor) solid;
+        border-bottom: 1px var(--greycolor) solid;
+        border-right: 1px var(--greycolor) solid;
+        margin: 1px 0;
+    }
 
     .les-plus-populaire
     {
-        margin-left: 15px;
-        padding: 15px 20px 10px 20px;
+        border-radius: initial;
+        border-left: 1px var(--whitecolor) solid;
+        border-bottom: 1px var(--whitecolor) solid;
+        border-right: 1px var(--whitecolor) solid;
+        margin: initial;
+        padding: 20px 25px;
+    }
+
+    .titre-aside
+    {
+        display: flex;
+        justify-content: space-between;
+        width: 98%;
+        margin: auto;
     }
 
     .titre-aside h2
     {
-        margin: 14px 0;
-    }
+        margin: 16px 0;
+    }/*
 
     .titre-aside i
     {
@@ -691,42 +798,79 @@
     .populaire
     {
         margin: 18px auto;
+    } */
+
+    .emplacement-populaire
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+
+    .populaire
+    {
+        background-color: var(--whitecolor);
+        width: 29%;
+        border-radius: 15px;
+        box-shadow: 0 0 6px 3px var(--darkgreycolor);
+        margin: 10px 5px 25px 5px;
+        padding: 5px;
+    }
+
+    .choix-du-logement-populaire
+    {
+        display: initial;
     }
         
     .choix-du-logement-populaire img
     {
-        height: 100px;
         width: 100%;
-        min-width: 65px;
-        max-width: 95px;
+        height: 130px;
+        min-width: initial;
+        max-width: initial;
+        object-fit: cover;
+        overflow: hidden;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: initial;
+        margin: auto;
     }
     
-    /* Activité */ /*
+    /* Activité */
 
     .section-activité
     {
         margin: 25px auto;
     }
 
+    .emplacement-choix-de-l-activité
+    {
+        flex-wrap: wrap;
+    }
+
     .choix-de-l-activité-vieux-port, .choix-de-l-activité-parc-national-des-calanques
     {
-        height: 280px;
+        width: 48%;
+        /* height: 280px; */
+        margin: 0 0 35px 0;
     }
 
     .choix-de-l-activité-parc-national-des-calanques
     {
-        margin-left: 30px;
-    }
+        margin-left: initial;
+    } /*
 
     .choix-de-l-activité-vieux-port img, .choix-de-l-activité-parc-national-des-calanques img
     {
         height: 89%;
-    }
+    } */
         
     .choix-de-l-activité-bloc-1,.choix-de-l-activité-bloc-2
     {
-        margin-left: 20px;
-    }
+        width: 48%;
+        margin-left: initial;
+    } /*
 
     .choix-de-l-activité-fort-de-pomegues
     {
@@ -763,6 +907,18 @@
     {
         margin-bottom: 30px;
     } */
+
+    /* Footer */
+
+    .nav-footer
+    {
+        flex-wrap: wrap;
+    }
+
+    .a-propos,.nos-hebergements,.assistance
+    {
+        width: 30%;
+    }
 }
 
 @media screen and (max-width: 425px)
@@ -982,9 +1138,9 @@
 
     .filtres i
     {
-        width: 41px;
+        width: 42px;
         height: 42px;
-        line-height: 2.6;
+        line-height: 2.7;
         margin-top: -13px;
         margin-left: -43px;
     }
@@ -1074,7 +1230,6 @@
         justify-content: center;
         border-left: 1px var(--greycolor) solid;
         border-right: 1px var(--greycolor) solid;
-        /* margin: 0 -10px; */
     }
 
     .les-plus-populaire
@@ -1190,5 +1345,4 @@
     {
         font-size: 16px;
     }
-
 }
