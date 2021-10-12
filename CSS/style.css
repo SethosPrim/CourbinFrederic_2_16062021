@@ -40,7 +40,7 @@ a
 {
     --bluecolor: #0065FC;
     --bluelightcolor: #DEEBFF;
-    --greycolor: #bd1d1d; /* --greycolor: #F2F2F2; */ /* redcolor #bd1d1d; */
+    --greycolor: #F2F2F2; /* Pour meilleur contraste redcolor #bd1d1d; */
     --darkgreycolor: #B1B1B14B;
     --whitecolor: white;
 }
