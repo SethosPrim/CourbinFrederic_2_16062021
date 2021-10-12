@@ -229,6 +229,7 @@ input::placeholder
 .infos
 {
     display: flex;
+    align-items: center;
     margin-top: 20px;
 }
 
@@ -298,7 +299,7 @@ input::placeholder
 .choix-du-logement img
 {
     width: 100%;
-    height: 130px;
+    height: 145px;
     object-fit: cover;
     overflow: hidden;
     border-top-left-radius: 10px;
@@ -333,7 +334,7 @@ input::placeholder
     font-size: 14px;
     width: 97%;
     margin: 0 auto;
-    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 /* Aside */

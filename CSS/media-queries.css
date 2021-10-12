@@ -71,7 +71,7 @@
 
     .afficher-plus a
     {
-        padding-top: 20px;
+        padding-top: 25px;
     }
 
     /* Aside */
@@ -90,7 +90,7 @@
     .titre-aside i
     {
         line-height: 3;
-        font-size: 16px;
+        font-size: 17px;
     }
         
     .choix-du-logement-populaire img
@@ -169,7 +169,7 @@
 {
     /* Eléments principaux de la page */
 
-    h1, h2
+    h2
     {
         font-size: 16px;
     }
@@ -188,7 +188,12 @@
 
     #logo img
     {
-        width: 19%;
+        width: 22%;
+    }
+
+    .nav-1-2, .inscription
+    {
+        font-size: 12px;
     }
 
     /* Recherche */
@@ -196,6 +201,11 @@
     .recherche h1
     {
         margin: 15px 0 5px 0;
+    }
+
+    .recherche p
+    {
+        font-size: 12px;
     }
 
     .rechercher
@@ -218,6 +228,11 @@
         height: 41px;
     }
 
+    .filtres h3
+    {
+        font-size: 14px;
+    }
+
     .filtres-divers
     {
         padding: 8px 20px 7px 40px;
@@ -229,6 +244,19 @@
         height: 34px;
         line-height: 2.3;
         margin-top: -9px;
+    }
+
+    .infos i
+    {
+        font-size: 10px;
+        width: 22px;
+        height: 22px;
+        line-height: 2;
+    }
+
+    .infos p
+    {
+        font-size: 12px;
     }
  
     /* Hébergement */
@@ -261,7 +289,8 @@
 
     .afficher-plus a
     {
-        padding-top: 10px;
+        font-size: 12px;
+        padding-top: 15px;
     }
 
     /* Aside */
@@ -279,7 +308,7 @@
 
     .titre-aside i
     {
-        line-height: 3;
+        line-height: 2.9;
         font-size: 16px;
     }
         
@@ -447,17 +476,12 @@
         padding-left: 5px;
     }
 
-    .infos
-    {
-        align-items: center;
-    }
-
     .infos i
     {
         font-size: 10px;
         width: 22px;
         height: 22px;
-        line-height: 2.2;
+        line-height: 2;
     }
 
     .infos p
@@ -735,6 +759,11 @@
         margin-left: -43px;
     }
 
+    .infos i
+    {
+        align-items: initial;
+    }
+
     /* Hébergement */
 
     .section-hebergement
@@ -828,7 +857,7 @@
 
     .section-activité
     {
-        margin: 25px auto;
+        margin: 25px auto 0 auto;
     }
 
     .emplacement-choix-de-l-activité
@@ -1104,15 +1133,16 @@
     .infos
     {
         width: 87%;
+        align-items: initial;
         margin: 20px auto 0 auto;
     }
 
     .infos i
     {
         font-size: 12px;
-        width: 22px;
-        height: 21px;
-        line-height: 1.7;
+        width: 24px;
+        height: 24px;
+        line-height: 1.8;
         border: 1px var(--darkgreycolor) solid;
     }
     
@@ -1121,6 +1151,7 @@
         font-size: 15px;
         text-align: start;
         margin: 3px 10px;
+        padding-top: 1px;
     }
     
     /* Hébergement */
