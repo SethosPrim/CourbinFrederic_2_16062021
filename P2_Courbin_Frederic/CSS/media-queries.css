@@ -1,0 +1,1345 @@
+@media screen and (min-width: 1250px) and (max-width: 1439px)
+{
+    /* Eléments principaux de la page */
+
+    h1, h2
+    {
+        font-size: 18px;
+    }
+
+    h3
+    {
+        font-size: 16px;
+    }
+
+    h4, p, a
+    {
+        font-size: 14px;
+    }
+
+    /* Header */
+
+    #logo img
+    {
+        width: 21%;
+    }
+
+    /* Recherche */
+
+    .recherche h1
+    {
+        margin: 18px 0 5px 0;
+    }
+
+    .rechercher
+    {
+        margin-top: 18px;
+    }
+
+    /* Hébergement */
+
+    .section-hebergement
+    {
+        margin: 10px auto;
+    }
+
+    .logement
+    {
+        margin-right: 15px;
+    }
+ 
+    .logement h2
+    {
+        margin: 14px auto;
+    }
+
+    .emplacement-choix-du-logement
+    {
+        margin-bottom: 0;
+    }
+
+    .emplacement-choix-du-logement a
+    {
+        width: 29%;
+        margin: 10px 9px 15px 9px;
+    }
+
+    .choix-du-logement img
+    {
+        height: 115px;
+    }
+
+    .afficher-plus a
+    {
+        padding-top: 25px;
+    }
+
+    /* Aside */
+
+    .les-plus-populaire
+    {
+        margin-left: 15px;
+        padding: 20px 25px 10px 25px;
+    }
+
+    .titre-aside h2
+    {
+        margin: 14px 0;
+    }
+
+    .titre-aside i
+    {
+        line-height: 3;
+        font-size: 17px;
+    }
+        
+    .choix-du-logement-populaire img
+    {
+        height: 135px;
+        width: 100%;
+        min-width: 110px;
+        max-width: 130px;
+    }
+    
+    /* Activité */
+
+    .section-activité
+    {
+        margin: 25px auto;
+    }
+
+    .choix-de-l-activité-vieux-port, .choix-de-l-activité-parc-national-des-calanques
+    {
+        height: 400px;
+    }
+
+    .choix-de-l-activité-parc-national-des-calanques
+    {
+        margin-left: 30px;
+    }
+
+    .choix-de-l-activité-vieux-port img, .choix-de-l-activité-parc-national-des-calanques img
+    {
+        height: 90%;
+    }
+        
+    .choix-de-l-activité-bloc-1,.choix-de-l-activité-bloc-2
+    {
+        margin-left: 20px;
+    }
+
+    .choix-de-l-activité-fort-de-pomegues
+    {
+        height: 225px;
+        margin-bottom: 30px;
+    }
+  
+    .choix-de-l-activité-fort-de-pomegues img
+    {
+        height: 82%;
+    }
+
+    .choix-de-l-activité-iles-du-frioul
+    {
+        height: 145px;
+    }
+
+    .choix-de-l-activité-iles-du-frioul img
+    {
+        height: 105px;
+    }
+
+    .choix-de-l-activité-notre-dame-de-la-garde,.choix-de-l-activité-parc-longchamp
+    {
+        height: 185px;
+    }
+
+    .choix-de-l-activité-bloc-2 img
+    {
+        height: 145px;
+    }
+
+    .choix-de-l-activité-notre-dame-de-la-garde
+    {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1249px)
+{
+    /* Eléments principaux de la page */
+
+    h2
+    {
+        font-size: 16px;
+    }
+
+    h3
+    {
+        font-size: 13px;
+    }
+
+    h4, p, a
+    {
+        font-size: 11px;
+    }
+
+    /* Header */
+
+    #logo img
+    {
+        width: 22%;
+    }
+
+    .nav-1-2, .inscription
+    {
+        font-size: 12px;
+    }
+
+    /* Recherche */
+
+    .recherche h1
+    {
+        margin: 15px 0 5px 0;
+    }
+
+    .recherche p
+    {
+        font-size: 12px;
+    }
+
+    .rechercher
+    {
+        margin-top: 18px;
+    }
+
+    .rechercher .fa-map-marker-alt
+    {
+        padding: 8px;
+    }
+
+    .rechercher .recherche
+    {
+        height: 35px;
+    }
+
+    .clique-1
+    {
+        height: 41px;
+    }
+
+    .filtres h3
+    {
+        font-size: 14px;
+    }
+
+    .filtres-divers
+    {
+        padding: 7px 20px 7px 40px;
+    }
+
+    .filtres i
+    {
+        width: 34px;
+        height: 34px;
+        line-height: 2.1;
+        margin-top: -9px;
+    }
+
+    .heart i
+    {
+        line-height: 2.2;
+    }
+
+    .infos i
+    {
+        font-size: 10px;
+        width: 22px;
+        height: 22px;
+        line-height: 2;
+    }
+
+    .infos p
+    {
+        font-size: 12px;
+    }
+ 
+    /* Hébergement */
+
+    .section-hebergement
+    {
+        margin: 13px auto;
+    }
+
+    .logement
+    {
+        margin-right: 15px;
+        padding: 20px;
+    }
+
+    .logement h2
+    {
+        margin: 14px auto;
+    }
+ 
+    .emplacement-choix-du-logement
+    {
+        margin-bottom: 5px;
+    }
+
+    .choix-du-logement img
+    {
+        height: 100px;
+    }
+
+    .afficher-plus a
+    {
+        font-size: 12px;
+        padding-top: 15px;
+    }
+
+    /* Aside */
+
+    .les-plus-populaire
+    {
+        margin-left: 15px;
+        padding: 20px 20px 10px 20px;
+    }
+
+    .titre-aside h2
+    {
+        margin: 14px 0;
+    }
+
+    .titre-aside i
+    {
+        line-height: 2.9;
+        font-size: 16px;
+    }
+        
+    .choix-du-logement-populaire img
+    {
+        height: 125px;
+        width: 100%;
+        min-width: 118px;
+        max-width: 118px;
+    }
+    
+    /* Activité */
+
+    .section-activité
+    {
+        margin: 25px auto;
+    }
+
+    .choix-de-l-activité-vieux-port, .choix-de-l-activité-parc-national-des-calanques
+    {
+        height: 305px;
+    }
+
+    .choix-de-l-activité-parc-national-des-calanques
+    {
+        margin-left: 30px;
+    }
+
+    .choix-de-l-activité-vieux-port img, .choix-de-l-activité-parc-national-des-calanques img
+    {
+        height: 88%;
+    }
+        
+    .choix-de-l-activité-bloc-1,.choix-de-l-activité-bloc-2
+    {
+        margin-left: 20px;
+    }
+
+    .choix-de-l-activité-fort-de-pomegues
+    {
+        height: 170px;
+        margin-bottom: 30px;
+    }
+
+    .choix-de-l-activité-fort-de-pomegues img
+    {
+        height: 80%;
+    }
+
+    .choix-de-l-activité-iles-du-frioul
+    {
+        height: 105px;
+    }
+
+    .choix-de-l-activité-iles-du-frioul img
+    {
+        height: 65%;
+    }
+
+    .choix-de-l-activité-notre-dame-de-la-garde,.choix-de-l-activité-parc-longchamp
+    {
+        height: 138px;
+    }
+
+    .choix-de-l-activité-bloc-2 img
+    {
+        height: 73%;
+    }
+
+    .choix-de-l-activité-notre-dame-de-la-garde
+    {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 811px) and (max-width: 1023px)
+{
+    /* Eléments principaux de la page */
+
+    h1
+    {
+        font-size: 16px;
+    }
+
+    h2
+    {
+        font-size: 14px;
+    }
+
+    h3
+    {
+        font-size: 12px;
+    }
+
+    h4, p, a
+    {
+        font-size: 10px;
+    }
+
+    /* Header */
+
+    #logo img
+    {
+        width: 20%;
+    }
+
+    .nav-1-2, .inscription
+    {
+        font-size: 12px;
+    }
+
+    /* Recherche */
+
+    .recherche h1
+    {
+        margin: 10px 0 5px 0;
+    }
+
+    .recherche p
+    {
+        font-size: 12px;
+    }
+
+    .rechercher
+    {
+        margin-top: 15px;
+    }
+
+    .rechercher .fa-map-marker-alt
+    {
+        padding: 8px;
+    }
+
+    .rechercher .recherche
+    {
+        font-size: 12px;
+        height: 35px;
+    }
+
+    .clique-1
+    {
+        font-size: 12px;
+        height: 41px;
+    }
+
+    .filtres-divers
+    {
+        margin-right: initial;
+        margin-left: 10px;
+        padding: 6px 20px 7px 40px;
+    }
+
+    .filtres i
+    {
+        font-size: 12px;
+        width: 32px;
+        height: 32px;
+        line-height: 2.8;
+        margin-top: -7px;
+    }
+
+    .filtres a
+    {
+        font-size: 12px;
+        padding-left: 5px;
+    }
+
+    .infos i
+    {
+        font-size: 10px;
+        width: 22px;
+        height: 22px;
+        line-height: 2;
+    }
+
+    .infos p
+    {
+        font-size: 12px;
+    }
+
+    /* Hébergement */
+
+    .section-hebergement
+    {
+        margin: 10px auto;
+    }
+
+    .logement
+    {
+        margin-right: 10px;
+        padding: 15px 10px;
+    }
+
+    .logement h2
+    {
+        margin: 14px auto;
+    }
+
+    .emplacement-choix-du-logement
+    {
+        margin-bottom: 0;
+    }
+
+    .emplacement-choix-du-logement a
+    {
+        width: 28%;
+        margin: 8px 4px;
+    }
+
+    .choix-du-logement img
+    {
+        height: 87px;
+    }
+
+    .caracteristique
+    {
+        margin: 0 0 5px 6px;
+    }
+
+    .afficher-plus a
+    {
+        font-size: 12px;
+        padding-top: 23px;
+    }
+
+    /* Aside */
+
+    .les-plus-populaire
+    {
+        margin-left: 10px;
+        padding: 15px 10px 10px 10px;
+    }
+
+    .titre-aside h2
+    {
+        margin: 14px 0;
+    }
+
+    .titre-aside i
+    {
+        line-height: 2.9;
+        font-size: 16px;
+    }
+
+    .populaire
+    {
+        margin: 18px auto;
+    }
+        
+    .choix-du-logement-populaire img
+    {
+        height: 100px;
+        width: 100%;
+        min-width: 65px;
+        max-width: 95px;
+    }
+    
+    /* Activité */
+
+    .section-activité
+    {
+        margin: 25px auto;
+    }
+
+    .choix-de-l-activité-vieux-port, .choix-de-l-activité-parc-national-des-calanques
+    {
+        height: 280px;
+    }
+
+    .choix-de-l-activité-parc-national-des-calanques
+    {
+        margin-left: 30px;
+    }
+
+    .choix-de-l-activité-vieux-port img, .choix-de-l-activité-parc-national-des-calanques img
+    {
+        height: 89%;
+    }
+        
+    .choix-de-l-activité-bloc-1,.choix-de-l-activité-bloc-2
+    {
+        margin-left: 20px;
+    }
+
+    .choix-de-l-activité-fort-de-pomegues
+    {
+        height: 150px;
+        margin-bottom: 30px;
+    }
+    
+    .choix-de-l-activité-fort-de-pomegues img
+    {
+        height: 79%;
+    }
+
+    .choix-de-l-activité-iles-du-frioul
+    {
+        height: 100px;
+    }
+
+    .choix-de-l-activité-iles-du-frioul img
+    {
+        height: 69%;
+    }
+
+    .choix-de-l-activité-notre-dame-de-la-garde,.choix-de-l-activité-parc-longchamp
+    {
+        height: 125px;
+    }
+
+    .choix-de-l-activité-bloc-2 img
+    {
+        height: 94px;
+    }
+
+    .choix-de-l-activité-notre-dame-de-la-garde
+    {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 431px) and (max-width: 810px)
+{
+    /* Header */
+
+    .bloc_header
+    {
+        margin: 10px auto;
+    }
+
+    .header-logo-nav
+    {
+        flex-wrap: wrap;
+    }
+
+    #logo
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    #logo img
+    {
+        width: 16%;
+    }
+
+    .inscription
+    {
+        display: none;
+    }
+
+    .inscription-portable
+    {
+        display: inline;
+        color: var(--bluecolor);
+        font-weight: bold;
+        font-size: 18px;
+        margin-right: -5px;
+    }
+
+    /* Navigation */
+
+    .navigation
+    {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .liste-barre-de-nav
+    {
+        padding: initial;
+    }
+
+    .liste-barre-de-nav li
+    {
+        margin: auto;
+    }
+
+    .nav-1-2
+    {
+        color: black;
+        font-size: 18px;
+        border-bottom: 3px var(--greycolor) solid;
+    }
+
+    .nav-1
+    {
+        margin-right: 20px;
+        padding: 20px 38px;
+    }
+
+    .nav-2
+    {
+        margin-left: 20px;
+        padding: 20px 55px;
+    }
+
+    .nav-1-2:hover
+    {
+        border-top: none;
+        border-bottom: 3px solid var(--bluecolor);
+        color: var(--bluecolor);
+    }
+
+    /* Recherche */
+
+    .recherche h1
+    {
+        margin: 35px 0 20px 0;
+    }
+
+    .rechercher .recherche
+    {
+        font-size: 16px;
+        width: 190px;
+    }
+
+    .filtres
+    {
+        flex-wrap: wrap;
+        width: initial;
+        margin: initial;
+    }
+    
+    .filtres h3
+    {
+        display: initial;
+        width: 100%;
+    }
+    
+    .filtres-divers
+    {
+        border: 2px var(--darkgreycolor) solid;
+        margin: 5px 8px 8px 0;
+        padding: 11px 20px 10px 40px;
+    }
+
+    .filtres i
+    {
+        width: 42px;
+        height: 42px;
+        line-height: 2.7;
+        margin-top: -13px;
+        margin-left: -43px;
+    }
+
+    .infos i
+    {
+        align-items: initial;
+    }
+
+    /* Hébergement */
+
+    .section-hebergement
+    {
+        flex-direction: column-reverse;
+        width: initial;
+        margin: 10px auto;
+        padding: initial;
+    }
+
+    .logement
+    {
+        width: initial;
+        border-radius: initial;
+        margin: initial;
+        padding: 20px 25px;
+    }
+
+    /* Aside */
+    
+    .liseré
+    {
+        width: initial;
+        border-left: 1px var(--greycolor) solid;
+        border-bottom: 1px var(--greycolor) solid;
+        border-right: 1px var(--greycolor) solid;
+        margin: 1px 0;
+    }
+
+    .les-plus-populaire
+    {
+        border-radius: initial;
+        border-left: 1px var(--whitecolor) solid;
+        border-bottom: 1px var(--whitecolor) solid;
+        border-right: 1px var(--whitecolor) solid;
+        margin: initial;
+        padding: 20px 25px;
+    }
+
+    .titre-aside
+    {
+        display: flex;
+        justify-content: space-between;
+        width: 98%;
+        margin: auto;
+    }
+
+    .titre-aside h2
+    {
+        margin: 16px 0;
+    }
+
+    .emplacement-populaire
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+
+    .populaire
+    {
+        background-color: var(--whitecolor);
+        width: 29%;
+        border-radius: 15px;
+        box-shadow: 0 0 6px 3px var(--darkgreycolor);
+        margin: 10px 5px 25px 5px;
+        padding: 5px;
+    }
+
+    .choix-du-logement-populaire
+    {
+        display: initial;
+    }
+        
+    .choix-du-logement-populaire img
+    {
+        width: 100%;
+        height: 130px;
+        min-width: initial;
+        max-width: initial;
+        object-fit: cover;
+        overflow: hidden;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: initial;
+        margin: auto;
+    }
+    
+    /* Activité */
+
+    .section-activité
+    {
+        margin: 25px auto 0 auto;
+    }
+
+    .emplacement-choix-de-l-activité
+    {
+        flex-wrap: wrap;
+    }
+
+    .choix-de-l-activité-vieux-port, .choix-de-l-activité-parc-national-des-calanques
+    {
+        width: 48%;
+        /* height: 280px; */
+        margin: 0 0 35px 0;
+    }
+
+    .choix-de-l-activité-parc-national-des-calanques
+    {
+        margin-left: initial;
+    }
+        
+    .choix-de-l-activité-bloc-1,.choix-de-l-activité-bloc-2
+    {
+        width: 48%;
+        margin-left: initial;
+    }
+
+    /* Footer */
+
+    .nav-footer
+    {
+        flex-wrap: wrap;
+    }
+
+    .a-propos,.nos-hebergements,.assistance
+    {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 430px)
+{
+    /* Eléments principaux de la page */
+
+    h1, h2
+    {
+        font-size: 22px;
+    }
+
+    h3
+    {
+        font-size: 19px;
+    }
+
+    h4, p, a
+    {
+        font-size: 16px;
+    }
+
+    p, a
+    {
+        font-size: 14px;
+    }
+
+    .etoile .light, .etoile-populaire .light
+    {
+        color: var(--greycolor);
+    }
+
+    /* Header */
+
+    .bloc_header
+    {
+        width: 100%;
+        margin: 30px 0;
+        padding: initial;
+    }
+
+    .header-logo-nav
+    {
+        flex-wrap: wrap;
+    }
+
+    #logo
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 92%;
+        margin: auto;
+    }
+
+    #logo img
+    {
+        width: 29%;
+        margin-top: -6px;
+        margin-left: 10px;
+    }
+
+    .inscription
+    {
+        display: none;
+    }
+
+    .inscription-portable
+    {
+        display: inline;
+        color: var(--bluecolor);
+        font-weight: bold;
+        font-size: 18px;
+        margin-right: -5px;
+    }
+
+    /* Navigation */
+
+    .navigation
+    {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .liste-barre-de-nav
+    {
+        padding: initial;
+    }
+
+    .liste-barre-de-nav li
+    {
+        margin: auto;
+    }
+
+    .nav-1-2
+    {
+        color: black;
+        font-size: 18px;
+        border-bottom: 3px var(--greycolor) solid;
+        padding: 20px 40px;
+    }
+
+    .nav-1
+    {
+        margin-right: 1px;
+        padding: 20px 38px;
+    }
+
+    .nav-2
+    {
+        margin-left: 1px;
+        padding: 20px 55px;
+    }
+
+    .nav-1-2:hover
+    {
+        border-top: none;
+        border-bottom: 3px solid var(--bluecolor);
+        color: var(--bluecolor);
+    }
+
+    /* Recherche */
+
+    .recherche h1
+    {
+        width: 87%;
+        margin: 45px auto 15px auto;
+    }
+
+    .recherche p
+    {
+        font-size: 16px;
+        width: 87%;
+        margin: auto;
+    }
+
+    .rechercher
+    {
+        width: 87%;
+        margin: 30px auto;
+    }
+
+    .rechercher .fa-map-marker-alt
+    {
+        font-size: 18px;
+        width: 28px;
+        padding: 9px 10px 9px 14px;
+    }
+
+    .rechercher .recherche
+    {
+        font-size: 17px;
+        width: auto;
+        max-width: 64%;
+        height: 50px;
+        border-left: 56px var(--greycolor) solid;
+        margin-left: -56px;
+    }
+
+    .clique-1
+    {
+        display: none;
+    }
+
+    .clique-2
+    {
+        position: absolute;
+        display: inline;
+        background-color: var(--bluecolor);
+        width: 56px;
+        height: 56px;
+        border: 1px var(--bluecolor) solid;
+        border-radius: 15px;
+        margin-left: -20px;
+        cursor: pointer;
+    }
+
+    .loupe
+    {
+        font-size: 18px;
+        background-color: var(--bluecolor);
+        color: var(--whitecolor);
+    }
+
+    .clique-2:focus
+    {
+        outline: none;
+    }
+
+    .filtres
+    {
+        flex-wrap: wrap;
+        width: 87%;
+        margin: 20px auto 0 auto;
+    }
+    
+    .filtres h3
+    {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        margin: 0 auto 10px auto;
+    }
+
+    .filtres-divers
+    {
+        border: 2px var(--darkgreycolor) solid;
+        margin: 5px 0 8px 0;
+        padding: 11px 20px 10px 40px;
+    }
+
+    .economique
+    {
+        margin-right: 10px;
+    }
+
+    .filtres i
+    {
+        width: 42px;
+        height: 42px;
+        line-height: 2.7;
+        margin-top: -13px;
+        margin-left: -43px;
+    }
+
+    .heart
+    {
+        margin-right: 25px;
+    }
+    
+    .filtres a
+    {
+        font-size: 16px;
+    }
+    
+    .infos
+    {
+        width: 87%;
+        align-items: initial;
+        margin: 20px auto 0 auto;
+    }
+
+    .infos i
+    {
+        font-size: 12px;
+        width: 24px;
+        height: 24px;
+        line-height: 1.8;
+        border: 1px var(--darkgreycolor) solid;
+    }
+    
+    .infos p
+    {
+        font-size: 15px;
+        text-align: start;
+        margin: 3px 10px;
+        padding-top: 1px;
+    }
+    
+    /* Hébergement */
+
+    .section-hebergement
+    {
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 0;
+        padding: initial;
+    }
+
+    .logement
+    {
+        background-color: initial;
+        width: 87%;
+        margin: 25px auto 10px auto;
+        padding: initial;
+    }
+
+    .logement h2
+    {
+        width: 100%;
+        margin: 16px 0;
+    }
+
+    .emplacement-choix-du-logement a
+    {
+        width: 100%;
+        margin: 10px 0;
+        padding: initial;
+    }
+
+    .choix-du-logement img
+    {
+        height: 118px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .afficher-plus a
+    {
+        font-size: 18px;
+        width: initial;
+        padding: 10px 0;
+    }
+
+    /* Aside */
+
+    .liseré
+    {
+        display: flex;
+        justify-content: center;
+        border-left: 1px var(--greycolor) solid;
+        border-right: 1px var(--greycolor) solid;
+    }
+
+    .les-plus-populaire
+    {
+        width: 100%;
+        border-radius: initial;
+        border-left: 1px var(--whitecolor) solid;
+        border-right: 1px var(--whitecolor) solid;
+        margin: initial;
+        padding: 0 0 35px 0;
+    }
+
+    .titre-aside
+    {
+        width: 88%;
+        padding-top: 25px;
+    }
+
+    .titre-aside h2, .titre-aside i
+    {
+        font-size: 22px;
+    }
+
+    .populaire
+    {
+        width: 85%;
+        box-shadow: 1px 2px 7px 2px #B1B1B194;
+        margin: 10px auto;
+    }
+
+    .choix-du-logement-populaire img
+    {
+        height: 140px;
+        width: 95%;
+        max-width: 143px;
+    }
+        
+    .caracteristique-populaire h4
+    {
+        font-size: 16px;
+        margin: 2px 0;
+    }
+
+    .caracteristique-populaire p, a
+    {
+        font-size: 12px;
+    }
+    
+    /* Activité */
+    
+    .emplacement-choix-de-l-activité
+    {
+        display: initial;
+    }
+
+    .emplacement-choix-de-l-activité h4
+    {
+        margin: 16px 0 10px 0;
+    }
+
+    .section-activité
+    {
+        width: 87%;
+        margin: 25px auto 45px auto;
+        padding: initial;
+    }
+
+    .choix-de-l-activité-vieux-port, .choix-de-l-activité-parc-national-des-calanques, .choix-de-l-activité-fort-de-pomegues, .choix-de-l-activité-iles-du-frioul, .choix-de-l-activité-notre-dame-de-la-garde, .choix-de-l-activité-parc-longchamp
+    {
+        width: initial;
+        height: 185px;
+        margin: 25px auto;
+        box-shadow: 1px 2px 7px 2px var(--darkgreycolor);
+    }
+
+    .choix-de-l-activité-vieux-port img, .choix-de-l-activité-parc-national-des-calanques img, .choix-de-l-activité-fort-de-pomegues img, .choix-de-l-activité-iles-du-frioul img, .choix-de-l-activité-notre-dame-de-la-garde img, .choix-de-l-activité-parc-longchamp img
+    {
+        height: 72%;
+    }
+        
+    .choix-de-l-activité-bloc-1,.choix-de-l-activité-bloc-2
+    {
+        width: initial;
+        margin: auto;
+    }
+    
+    /* Footer */
+
+    .footer
+    {
+        display: flex;
+        justify-content: center;
+        border-right: 1px var(--greycolor) solid;
+        border-bottom: 1px var(--greycolor) solid;
+        border-left: 1px var(--greycolor) solid;
+    }
+
+    .nav-footer
+    {
+        display: inline-block;
+        border-right: 1px var(--whitecolor) solid;
+        border-bottom: 1px var(--whitecolor) solid;
+        border-left: 1px var(--whitecolor) solid;
+        padding: 5px 25px 10px 25px;
+    }
+
+    .a-propos,.nos-hebergements,.assistance
+    {
+        margin: 40px auto;
+    }
+
+    .a-propos a,.nos-hebergements a,.assistance a
+    {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 381px)
+{
+    .nav-1
+    {
+        margin-right: 1px;
+        padding: 20px 22px;
+    }
+    
+    .nav-2
+    {
+        margin-left: 1px;
+        padding: 20px 39px;
+    }
+}
