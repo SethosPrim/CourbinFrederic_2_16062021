@@ -235,15 +235,20 @@
 
     .filtres-divers
     {
-        padding: 8px 20px 7px 40px;
+        padding: 7px 20px 7px 40px;
     }
 
     .filtres i
     {
         width: 34px;
         height: 34px;
-        line-height: 2.3;
+        line-height: 2.1;
         margin-top: -9px;
+    }
+
+    .heart i
+    {
+        line-height: 2.2;
     }
 
     .infos i
@@ -1246,7 +1251,8 @@
         
     .caracteristique-populaire h4
     {
-        font-size: 17px;
+        font-size: 16px;
+        margin: 2px 0;
     }
 
     .caracteristique-populaire p, a
