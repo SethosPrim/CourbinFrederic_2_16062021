@@ -155,21 +155,26 @@ input::placeholder
     outline: none;
 }
 
-.clique-1
+button
 {
     position: absolute;
-    font-size: 14px;
-    font-weight: bold;
     background-color: var(--bluecolor);
     color: var(--whitecolor);
     width: 120px;
-    height: 45px;
+    height: 41px;
     border: none;
     border-left: 2px var(--greycolor) solid;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     margin-left: -5px;
     cursor: pointer;
+
+}
+
+.clique-1
+{
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .clique-1:focus
