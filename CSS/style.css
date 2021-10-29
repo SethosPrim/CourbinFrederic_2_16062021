@@ -10,6 +10,8 @@ body
 
 /* Eléments principaux de la page */
 
+/* Possibilité d'utiliser "text-transform: uppercase" pour modifier l'attribut maj/min du texte */
+
 h1, h2
 {
     font-size: 20px;
